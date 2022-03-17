@@ -1,0 +1,94 @@
+<?php session_start() ?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/styleHome.css"/>
+    <link rel="stylesheet" href="CSS/main.css"/>
+    <title>Bienvenue au Fablab !</title>
+</head>
+
+<body>
+
+<header id="hautpage">
+    <div class="wrapper">
+        <div class="headcontent">
+            <h1>BIENVENUE AU FABLAB</h1>
+            <p style="font-size: 20px">Site Icam de Toulouse</p>
+        </div>
+    </div>
+</header> <!--Landing screen (Title + backgroundimage)-->
+
+<?php include('printNavMenu.php'); ?>
+
+<?php include('carrouselSites.php') ?>
+<div id="signup">
+    <?php include('printpopup.php') ?>
+</div>
+
+
+<div class="hiddenscrollbar">
+    <div id="pagecontainer">
+        <article>
+            <h2>Les news de la semaine !</h2><br/><br/>
+            <p id="maintexte">
+                Lorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eveniet suscipit ut molestiae ipsum? Et obcaecati quisquam et assumenda error aut
+                similique eaque. Ut consequatur corrupti ab enim rerum non rerum voluptate qui tenetur recusandae! Est
+                quisquam consequatur 33 tenetur galisum cum perferendis provident et exercitationem incidunt aut
+                voluptate mollitia.
+                Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+                accusamus natus non eveniet nemo. Aut laboriosam facere sed voluptatibus ullam aut molestiae officia ab
+                dolor numquam qui suscipit nostrum? Ab expedita quos sed consequatur numquam non dolorem qui sunt
+                repellendus id adipisci odit non perferendis fugit. Eos inventore voluptas qui vitae eligendi non
+                laborum amet eos architecto fugit.
+                Lorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eveniet suscipit ut molestiae ipsum? Et obcaecati quisquam et assumenda error aut
+                similique eaque. Ut consequatur corrupti ab enim rerum non rerum voluptate qui tenetur recusandae! Est
+                quisquam consequatur 33 tenetur galisum cum perferendis provident et exercitationem incidunt aut
+                voluptate mollitia.
+                Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+                aLorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eveniet suscipit ut molestiae ipsum? Et obcaecati quisquam et assumenda error aut
+                similique eaque. Ut consequatur corrupti ab enim rerum non rerum voluptate qui tenetur recusandae! Est
+                quisquam consequatur 33 tenetur galisum cum perferendis provident et exercitationem incidunt aut
+                voluptate mollitia.
+                Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+                aLorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eveniet suscipit ut molestiae ipsum? Et obcaecati quisquam et assumenda error aut
+                similique eaque. Ut consequatur corrupti ab enim rerum non rerum voluptate qui tenetur recusandae! Est
+                quisquam consequatur 33 tenetur galisum cum perferendis provident et exercitationem incidunt aut
+                voluptate mollitia.
+                Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+                aLorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eveniet suscipit ut molestiae ipsum? Et obcaecati quisquam et assumenda error aut
+                similique eaque. Ut consequatur corrupti ab enim rerum non rerum voluptate qui tenetur recusandae! Est
+                quisquam consequatur 33 tenetur galisum cum perferendis provident et exercitationem incidunt aut
+                voluptate mollitia.
+                Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+                aLorem ipsum dolor sit amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut
+                aspernatur praesentium. Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad
+                eius facilis.
+                Et dolorem nihil aut eolorum maxime sed laborum accusamus et delectus tempora est aLorem ipsum dolor sit
+                amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut aspernatur praesentium.
+                Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad eius facilis.
+            </p> <! Texte de remplissage ici>
+        </article>
+    </div>
+</div>
+
+<?php include('Footer.php'); ?>
+
+</body>
+</html>
