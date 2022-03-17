@@ -49,6 +49,7 @@ class UserModel extends Database
         $req = "SELECT Id_User_Utilisateurs from `projet_bdd`.utilisateurs WHERE Mail_User_Utilisateurs= :email and Password_User= :password";
         $stmt = $this->getDatabase()->prepare($req);
 
+
         $stmt->bindParam('email', $email);
         $stmt->bindParam('password', $password);
 
@@ -57,4 +58,18 @@ class UserModel extends Database
         $stmt->closeCursor();
         return $data;
     }
+
+    /*public function sign_in($email, $password) //true if logged in successfully
+    {
+        $req = "SELECT Password_User from `projet_bdd`.utilisateurs WHERE Mail_User_Utilisateurs= :email and Password_User= :password";
+        $stmt = $this->getDatabase()->prepare($req);
+
+        $stmt->bindParam('password', $password);
+        $stmt->bindParam('email', $email);
+
+        $stmt->execute();
+        $data = $stmt->fetch(PDO::FETCH_OBJ);
+        $stmt->closeCursor();
+        return $data;
+    }*/
 }

@@ -10,9 +10,9 @@ if ((!isset($_POST['prenom']) || empty($_POST['prenom'])) || (!isset($_POST['nom
     return;
 }
 
-$cryptedPassword = password_hash($_POST['password'], PASSWORD_BCRYPT);
+$cryptedPwd = password_hash($_POST['password'], PASSWORD_BCRYPT);
 require_once('Models/UserModel.php');
-$userData = (new UserModel)->sign_up($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['promo'], $cryptedPassword);
+$userData = (new UserModel)->sign_up($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['promo'], $cryptedPwd);
 
 require_once("Models/DatabaseModel.php");
 $members = (new Database)->getAllDbInfos('utilisateurs', 'Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs');
