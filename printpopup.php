@@ -20,7 +20,7 @@
 <div id="modalIdSignUp" class="modal">
     <div class="modal-content">
         <div class="contact-form">
-            <form action="signup.php" method="POST">
+            <form action="init/signup.php" method="POST">
                 <div>
                     <a class="close">&times;</a>
                 </div>
@@ -62,7 +62,7 @@
 <div id="modalIdSignIn" class="modal">
     <div class="modal-content">
         <div class="contact-form">
-            <form action="login.php" method="POST">
+            <form action="init/login.php" method="POST">
                 <div>
                     <a class="close">&times;</a>
                 </div>

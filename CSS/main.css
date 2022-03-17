@@ -13,6 +13,21 @@ html, body, header, main {
     height: 100%;
 }
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .icone {
     float: left;
     width: 40px;
