@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscription</title>
-    <link rel="stylesheet" href="../CSS/Formulairecontact.css">
     <link rel="stylesheet" href="../CSS/main.css"/>
 </head>
 <body>
 
 <div>
-    <div class="titre">
+    <div style="margin: 50px;">
         <?php
         if ($userData) { ?>
             <h2><?php echo 'Bonjour ' . $_POST['prenom'] . ', votre inscription a bien été prise en compte'; ?></h2>

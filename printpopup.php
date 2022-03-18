@@ -5,6 +5,7 @@
     <title>Formulaire d'inscription</title>
     <link rel="stylesheet" href="CSS/main.css"/>
     <link rel="stylesheet" href="CSS/Formulairecontact.css">
+    <link rel="stylesheet" href="../CSS/popup.css"/>
 </head>
 <body>
 
@@ -52,7 +53,7 @@
                         <label for="promo" class="form-label">Promotion :</label>
                         <textarea class="form-control" placeholder="Forme : OXXX, IXXX, AXXX" id="message" name="promo"></textarea>
                     </div>
-                    <button type="submit" class="navbutton" formtarget="_blank">S'inscrire</button>
+                    <button type="submit" class="button" formtarget="_blank">S'inscrire</button>
                 </div>
             </form>
         </div>

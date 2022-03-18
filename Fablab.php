@@ -15,7 +15,7 @@
     <div class="wrapper">
         <div class="headcontent">
             <h1>BIENVENUE AU FABLAB</h1>
-            <p style="text-shadow: 1px 1px 2px black; font-size: 30px">Site Icam de Toulouse</p>
+            <p style="text-shadow: 1px 1px 2px black; font-size: 24px">Site Icam de Toulouse</p>
         </div>
     </div>
 </header> <!--Landing screen (Title + backgroundimage)-->
@@ -23,10 +23,6 @@
 <?php include('printNavMenu.php'); ?>
 
 <?php include('carrouselSites.php') ?>
-<div id="signup">
-    <?php include('printpopup.php') ?>
-</div>
-
 
 <div class="hiddenscrollbar">
     <div id="pagecontainer">
