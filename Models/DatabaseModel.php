@@ -10,7 +10,7 @@ class Database
 
     private static function setDatabase()
     {
-        require_once 'init/identifier.php';
+        require_once '../init/identifier.php';
 
         self::$pdo = new PDO("mysql:host=$hostname;dbname=$database;charset=utf8", $username, $password);
         self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

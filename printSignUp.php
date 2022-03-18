@@ -9,7 +9,7 @@
 <body>
 
 <div>
-    <div class="titre" style="margin: 50px">
+    <div class="titre">
         <?php
         if ($userData) { ?>
             <h2><?php echo 'Bonjour ' . $_POST['prenom'] . ', votre inscription a bien été prise en compte'; ?></h2>
