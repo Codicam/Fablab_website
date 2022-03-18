@@ -33,7 +33,7 @@ nav > ul > li{
 
 nav > ul > li > a{
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, 50%);
 }
@@ -117,27 +117,7 @@ nav > ul > li:hover > a{
     display: flex;
     flex-direction: row;
     width: fit-content;
-    justify-content: center;
+    margin: 0 30px;
 }
 
-.navbutton {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-    background: orange;
-    border-radius: 8px;
-    transition: transform 200ms ease-out;
-}
-
-.navbutton:hover {
-    transform: translateY(-10px);
-    color: black;
-    background: white;
-    border: 3px solid orange;
-}
 

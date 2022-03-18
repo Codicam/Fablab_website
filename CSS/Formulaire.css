@@ -48,20 +48,3 @@ textarea {
     color: #fff;
 }
 
-.button {
-    color: black;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-bottom: 3px solid black;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin: auto;
-    background: none;
-}
-.button:hover {
-    transition: 200ms;
-    color: orange;
-    background: white;
-    border-bottom: 3px solid orange;
-}

@@ -33,3 +33,20 @@ h3 {
     width: 40px;
     height: 40px;
 }
+
+.button {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-style: none;
+    border-bottom: 2px solid black;
+    font-size: 1em;
+    margin: 15px;
+    background: white;
+}
+.button:hover {
+    transition: 100ms ease-out;
+    color: orange;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
