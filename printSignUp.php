@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscription</title>
-    <link rel="stylesheet" href="CSS/Formulairecontact.css">
-    <link rel="stylesheet" href="CSS/main.css"/>
+    <link rel="stylesheet" href="../CSS/Formulairecontact.css">
+    <link rel="stylesheet" href="../CSS/main.css"/>
 </head>
 <body>
 
@@ -19,8 +19,8 @@
         }
         ?>
     </div>
-    <div style="margin: 0 50px">
-        <p>
+    <div style="text-align: left; margin: 0 50px;">
+        <p >
             Liste des personnes déjà inscrites :
         </p>
         <br/>
