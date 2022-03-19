@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="CSS/styleHome.css"/>
     <link rel="stylesheet" href="CSS/main.css"/>
     <title>Bienvenue au Fablab !</title>
-</head>
 
+</head>
 <body>
 
 <header id="hautpage">
@@ -22,7 +22,11 @@
 
 <?php include('printNavMenu.php'); ?>
 
+<div class="separator"></div>
+
 <?php include('carrouselSites.php') ?>
+
+<div class="separator"></div>
 
 <div class="hiddenscrollbar">
     <div id="pagecontainer">

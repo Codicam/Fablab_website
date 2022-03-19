@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<h2 style="text-shadow: 1px 1px 4px black;">Les Assoc' du Fablab</h2><br /><br />
+
 <div class="frame_box">
     <div class="carrousel_box" id="fabricam">
         <a href="" class="c_title">Fabricam</a>

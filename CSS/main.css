@@ -20,7 +20,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 h3 {
@@ -45,8 +46,19 @@ h3 {
     background: white;
 }
 .button:hover {
-    transition: 100ms ease-out;
+    transition: 200ms ease-out;
     color: orange;
     border-top: 3px solid orange;
     border-bottom: 3px solid orange;
+}
+
+.separator {
+    display: block;
+    margin: 50px 15%;
+    background: black;
+    border: 0.5px solid black;
+    width: 70%;
+    height: 0;
+    padding: 0;
+
 }

@@ -8,7 +8,7 @@
 <body>
 
 <div>
-    <div style="margin: 50px;">
+    <div style="margin: 50px; text-align: left;">
         <?php
         if ($userData) { ?>
             <h2><?php echo 'Bonjour ' . $_POST['prenom'] . ', votre inscription a bien été prise en compte'; ?></h2>

@@ -54,7 +54,7 @@
                         <label for="promo" class="form-label">Promotion :</label>
                         <textarea class="form-control" placeholder="Forme : OXXX, IXXX, AXXX" id="message" name="promo"></textarea>
                     </div>
-                    <button type="submit" class="button" formtarget="_blank">S'inscrire</button>
+                    <button type="submit" class="subbutton" formtarget="_blank">S'inscrire</button>
                 </div>
             </form>
         </div>
@@ -82,7 +82,7 @@
                         <input type="password" class="form-control" placeholder="Entrez votre mot de passe" id="password" name="password">
                         <div class="form-subtext">Votre mot de passe est crypté automatiquement.</div>
                     </div>
-                    <button type="submit" class="navbutton" formtarget="_blank">Se connecter</button>
+                    <button type="submit" class="subbutton" formtarget="_blank">Se connecter</button>
                 </div>
             </form>
         </div>
