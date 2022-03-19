@@ -26,6 +26,7 @@
 #fabricam {
     background: url("../images/fabricamNB.png") center;
     background-size: cover;
+    transition: 300ms ease-out;
 }
 #fabricam:hover {
     transition: 300ms ease-out;
@@ -35,6 +36,7 @@
 #codicam {
     background: url("../images/codageNB.png") center;
     background-size: cover;
+    transition: 300ms ease-out;
 }
 #codicam:hover {
     transition: 300ms ease-out;
@@ -44,6 +46,7 @@
 #couturicam {
     background: url("../images/coutureNB.png") center;
     background-size: cover;
+    transition: 300ms ease-out;
 }
 #couturicam:hover {
     transition: 300ms ease-out;
@@ -53,6 +56,7 @@
 #roboticam {
     background: url("../images/Roboticam_NB.png") center;
     background-size: cover;
+    transition: 300ms ease-out;
 }
 #roboticam:hover {
     transition: 300ms ease-out;
