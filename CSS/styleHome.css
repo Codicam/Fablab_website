@@ -9,16 +9,10 @@ header {
 }
 
 article {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: justify;
+    color: black;
+    text-align: center;
     max-width: 800px;
-    margin: 50px 50px;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-    border-radius: 20px/80px;
-    padding: 0px 30px;
+    margin: auto;
 }
 
 footer {
@@ -50,21 +44,14 @@ footer {
 
 #pagecontainer {
     display: flex;
-    align-items: flex-start;
     overflow: auto;
-    background: grey;
     height: 100%;
     width: 100%;
     padding-right: 20px;
 }
 
-#signup {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 15%;
-    height: 87.5%;
-    padding: 10px 10px;
+#maintexte {
+    text-align: justify;
 }
 
 /*//////////////////////////////////////////////////////////////////////*/
