@@ -1,16 +1,26 @@
-<?php
-    require_once ('init/redirecting.php');
+<?php session_start();
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Pour le bois</title>
+    <title>Page test</title>
 </head>
 <body>
 
-<p>Ceci est une page test de redirection, l'utilisateur doit être connecté pour la voir.</p>
+<?php
+
+if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)): ?>
+    <p>Ceci est une page test, l'utilisateur doit être connecté pour la voir.</p>
+
+<?php
+else: {
+    require('Errorpage.php');
+}
+
+endif; ?>
+
 
 </body>
 </html>

@@ -1,8 +1,7 @@
 <?php session_start();
 
-if (isset ($_SESSION['loggeduser'])) {
-    echo 'ok';
+if (!$_SESSION['loggeduser']) {
+    require('Errorpage.php');
 }
-else {
-    echo 'non';
-}
+
+?>

@@ -51,7 +51,7 @@
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
             <div class="btnfoot">
-                <a href=#hautpage class="linkfoot">Revenir en haut</a>
+                <a href="Disconnecting.php" class="linkfoot">Se déconnecter</a>
             </div>
         </div>
         <div id="logocodicam">
