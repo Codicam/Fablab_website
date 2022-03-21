@@ -14,9 +14,9 @@
         <li class="menu-deroulant">
             <a href="#">Formations</a>
             <ul class="sous-menu">
-                <li><a href="#">Maîtriser les imprimantes</a></li>
-                <li><a href="#">Usiner du bois</a></li>
-                <li><a href="#">Usiner du métal</a></li>
+                <li><a href="page2.php">Maîtriser les imprimantes</a></li>
+                <li><a href="page2.php">Usiner du bois</a></li>
+                <li><a href="page2.php">Usiner du métal</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">

@@ -1,8 +1,5 @@
 <?php session_start();
 
-// TO DO
-// Securiser les mdp et la connexion avec hash et verify
-
 if ((!isset($_POST['prenom']) || empty($_POST['prenom'])) || (!isset($_POST['nom']) || empty($_POST['nom'])) ||
     (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) || empty($_POST['email'])) ||
     (!isset($_POST['promo']) || empty($_POST['promo'])) || (!isset($_POST['password']) || empty($_POST['password']))) {

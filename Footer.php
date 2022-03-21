@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="btnfoot">
-                <a href="page2.html" class="linkfoot" target="_blank">
+                <a href="page2.php" class="linkfoot" target="_blank">
                     <img src="images/facebook.png" alt="facebook" class="icone">
                     <p>Facebook</p>
                 </a>
