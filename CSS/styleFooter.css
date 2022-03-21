@@ -13,20 +13,17 @@
     padding: 5px 5px;
     width: 120%;
 }
+.btnfoot:hover {
+    background: lightgrey;
+}
 
 .linkfoot {
     text-decoration: none;
     color: black;
 }
-
-.btnfoot:hover {
-    background: lightgrey;
-}
-
 .linkfoot:hover {
     color: white;
 }
-
 .linkfoot:active, .linkfoot:visited {
     color: orange;
 }
@@ -77,6 +74,4 @@
     position: absolute;
     bottom: 0;
     right:0;
-}
-#image {
 }

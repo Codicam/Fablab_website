@@ -5,6 +5,8 @@
     <title>Footer</title>
     <link rel="stylesheet" href="CSS/main.css"/>
     <link rel="stylesheet" href="CSS/styleFooter.css">
+    <link rel="stylesheet" href="CSS/popup.css">
+    <link rel="stylesheet" href="CSS/Formulaire.css">
 </head>
 <body>
 
@@ -50,8 +52,10 @@
             <div class="btnfoot">
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
-            <div class="btnfoot">
-                <a href="Disconnecting.php" class="linkfoot">Se déconnecter</a>
+            <div>
+                <button class="button" data-modal="modalDisconnect">
+                    SE DECONNECTER
+                </button>
             </div>
         </div>
         <div id="logocodicam">
@@ -59,6 +63,39 @@
         </div>
     </div>
 </footer>
+
+<div id="modalDisconnect" class="modal">
+    <div class="modal-content">
+        <div class="box">
+            <div>
+                <a class="close">&times;</a>
+            </div>
+            <h3>Vous êtes bien déconnecté !</h3>
+        </div>
+    </div>
+</div>
+
+<script>
+    let modalBtns = [...document.querySelectorAll(".button")];
+    modalBtns.forEach(function (btn) {
+        btn.onclick = function () {
+            let modal = btn.getAttribute("data-modal");
+            document.getElementById(modal).style.display = "block";
+        };
+    });
+    let closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+            let modal = btn.closest(".modal");
+            modal.style.display = "none";
+        };
+    });
+    window.onclick = function (event) {
+        if (event.target.className === "modal") {
+            event.target.style.display = "none";
+        }
+    };
+</script>
 
 </body>
 </html>

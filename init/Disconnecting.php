@@ -2,10 +2,11 @@
 
 try {
     session_destroy();
-    echo 'Vous avez bien été déconnecté';
 }
 catch (Exception) {
     echo 'Il n\'y a pas de session active';
 }
 
+sleep(2);
+header('Location:../Fablab.php');
 ?>

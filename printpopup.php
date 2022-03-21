@@ -5,7 +5,7 @@
     <title>Formulaire d'inscription</title>
     <link rel="stylesheet" href="CSS/main.css"/>
     <link rel="stylesheet" href="CSS/Formulaire.css">
-    <link rel="stylesheet" href="../CSS/popup.css"/>
+    <link rel="stylesheet" href="CSS/popup.css"/>
 
 </head>
 <body>
