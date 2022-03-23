@@ -52,10 +52,10 @@
             <div class="btnfoot">
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
-            <div>
-                <button class="button" data-modal="modalDisconnect">
+            <div style="margin: auto;">
+                <a class="button" data-modal="modalDisconnect" href="init/Disconnecting.php">
                     SE DECONNECTER
-                </button>
+                </a>
             </div>
         </div>
         <div id="logocodicam">

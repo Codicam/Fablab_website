@@ -22,10 +22,10 @@
         <li class="menu-deroulant">
             <a href="#">Outils</a>
             <ul class="sous-menu">
-                <li><a href="#">Bois</a></li>
-                <li><a href="#">Métaux</a></li>
-                <li><a href="#">Plastique</a></li>
-                <li><a href="#">Electronique</a></li>
+                <li><a href="Outils.php">Bois</a></li>
+                <li><a href="Outils.php">Métaux</a></li>
+                <li><a href="Outils.php">Plastique</a></li>
+                <li><a href="Outils.php">Electronique</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">

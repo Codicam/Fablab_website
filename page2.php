@@ -14,11 +14,10 @@
 <?php
 
 if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)): ?>
-    <p>Ceci est une page test, l'utilisateur doit être connecté pour la voir.</p>
-
+    <h3 style="margin: 50px auto;">Ceci est une page test, l'utilisateur doit être connecté pour la voir.</h3>
 <?php
 else: {
-    require('Errorpage.php');
+    require('init/Errorpage.php');
 }
 
 endif; ?>
