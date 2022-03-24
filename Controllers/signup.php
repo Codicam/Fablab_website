@@ -14,6 +14,6 @@ $userData = (new UserModel)->sign_up($_POST['nom'], $_POST['prenom'], $_POST['em
 require_once("../Models/DatabaseModel.php");
 $members = (new Database)->getTableInfos('utilisateurs');
 foreach($members as $info) {
-    $tableInfos[] = $info['Nom']
+    $tableInfos[] = $info['Nom_User_Utilisateurs'].' '.$info['Prenom_User_Utilisateurs'];
 }
 require('../printSignUp.php');
