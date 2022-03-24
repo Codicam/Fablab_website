@@ -1,15 +1,3 @@
-<?php session_start();
-
-if (isset ($_SESSION['loggeduser']) || ($_SESSION['loggeduser'] === true)) {
-    require_once('Models/DatabaseModel.php');
-    $infos = (new Database)->getAllDbInfos('outils','Nom_Outil_Outils','Description_outil_Outils');
-}
-else {
-    require('init/Errorpage.php');
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,7 +13,7 @@ else {
         <h2>Voici les outils disponibles</h2>
     </div>
     <div>
-        <p> <?php echo implode('',$infos); ?></p>
+        <p> <?= implode('<br/>',$tableInfos) ?></p>
     </div>
 </div>
 

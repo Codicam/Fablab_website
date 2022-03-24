@@ -20,11 +20,11 @@
     </div>
 </header> <!--Landing screen (Title + backgroundimage)-->
 
-<?php include('printNavMenu.php'); ?>
+<?php require('printNavMenu.php'); ?>
 
 <div class="separator"></div>
 
-<?php include('carrouselSites.php') ?>
+<?php require('carrouselSites.php') ?>
 
 <div class="separator"></div>
 
@@ -88,7 +88,7 @@
     </div>
 </div>
 
-<?php include('Footer.php'); ?>
+<?php require('Footer.php'); ?>
 
 </body>
 </html>

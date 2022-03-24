@@ -24,27 +24,17 @@ class Database
         return self::$pdo;
     }
 
-    public function getAllDbInfos($inWhatTable, $whatInfoYouSearch, $secondInfoYouSearch): array
+    public function getTableInfos($inWhatTable): array
     {
-        $whatInfoYouSearch = (string)$whatInfoYouSearch;
-        $secondInfoYouSearch = (string)$secondInfoYouSearch;
         $tableQuery = 'SELECT * FROM `projet_bdd`.' . $inWhatTable;
         $stmt = $this->getDatabase()->prepare($tableQuery);
         $stmt->execute();
-        $infos = $stmt->fetchAll();
-        if ($secondInfoYouSearch === '') {
-            foreach ($infos as $info) {
-                $tableInfo[] = $info[$whatInfoYouSearch];
-            }
-        } else {
-            foreach ($infos as $info) {
-                $tableInfo[] = ($info[$whatInfoYouSearch] . ' ' . $info[$secondInfoYouSearch]);
-            }
-        }
-        return $tableInfo;
+        return $stmt->fetchAll();
+
+
     }
 
-    public function getDbInfo($inWhatTable, $whatInfoYouSearch, $attribute, $conditionToCheck): array
+    public function getPreciseInfo($inWhatTable, $whatInfoYouSearch, $attribute, $conditionToCheck): array
     {
         $whatInfoYouSearch = (string)$whatInfoYouSearch;
         $tableQuery = "SELECT * FROM `projet_bdd` . " . $inWhatTable . ' WHERE '.$attribute.' = :conditionToCheck';

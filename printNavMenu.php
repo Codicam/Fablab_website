@@ -12,20 +12,20 @@
 <nav>
     <ul>
         <li class="menu-deroulant">
-            <a href="#">Formations</a>
+            <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
-                <li><a href="page2.php">Maîtriser les imprimantes</a></li>
-                <li><a href="page2.php">Usiner du bois</a></li>
-                <li><a href="page2.php">Usiner du métal</a></li>
+                <li><a href="Controllers/formationController.php">Maîtriser les imprimantes</a></li>
+                <li><a href="Controllers/formationController.php">Usiner du bois</a></li>
+                <li><a href="Controllers/formationController.php">Usiner du métal</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
-            <a href="#">Outils</a>
+            <a href="Controllers/toolController.php">Outils</a>
             <ul class="sous-menu">
-                <li><a href="Outils.php">Bois</a></li>
-                <li><a href="Outils.php">Métaux</a></li>
-                <li><a href="Outils.php">Plastique</a></li>
-                <li><a href="Outils.php">Electronique</a></li>
+                <li><a href="Controllers/toolController.php">Bois</a></li>
+                <li><a href="Controllers/toolController.php">Métaux</a></li>
+                <li><a href="Controllers/toolController.php">Plastique</a></li>
+                <li><a href="Controllers/toolController.php">Electronique</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">

@@ -24,7 +24,7 @@
         </p>
         <br/>
             <?php
-                echo implode("<br />", $members); //change array into string
+                echo implode("<br />", $tableInfos); //change array into string
             ?>
     </div>
 </div>

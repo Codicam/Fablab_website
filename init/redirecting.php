@@ -4,4 +4,3 @@ if (!$_SESSION['loggeduser']) {
     require('Errorpage.php');
 }
 
-?>

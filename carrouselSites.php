@@ -18,7 +18,7 @@
         <a href="" class="c_title">Codicam</a>
     </div>
     <div class="carrousel_box" id="couturicam">
-        <a href="" class="c_title">Coutur'icam</a>
+        <a href="" class="c_title">Styl'icam</a>
     </div>
     <div class="carrousel_box" id="roboticam">
         <a href="" class="c_title">Roboticam</a>

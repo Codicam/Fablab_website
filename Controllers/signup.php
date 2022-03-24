@@ -12,7 +12,8 @@ require_once('../Models/UserModel.php');
 $userData = (new UserModel)->sign_up($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['promo'], $cryptedPwd);
 
 require_once("../Models/DatabaseModel.php");
-$members = (new Database)->getAllDbInfos('utilisateurs', 'Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs');
-
-require('../printSignUp.php')
-?>
+$members = (new Database)->getTableInfos('utilisateurs');
+foreach($members as $info) {
+    $tableInfos[] = $info['Nom']
+}
+require('../printSignUp.php');

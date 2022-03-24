@@ -12,8 +12,8 @@ else {
 
         if ( (new UserModel)->sign_in($_POST['email'], $_POST['password']) ) { //Check matching email and password
             $_SESSION['loggeduser'] = true;
-            $username = (new Database)->getDbInfo('utilisateurs','Prenom_User_Utilisateurs', "Mail_User_Utilisateurs", $_POST['email']);
-            $admin = (new Database)->getDbInfo('utilisateurs','isUserStaff',"Mail_User_Utilisateurs", $_POST['email']);
+            $username = (new Database)->getPreciseInfo('utilisateurs','Prenom_User_Utilisateurs', "Mail_User_Utilisateurs", $_POST['email']);
+            $admin = (new Database)->getPreciseInfo('utilisateurs','isUserStaff',"Mail_User_Utilisateurs", $_POST['email']);
             $_SESSION['username'] = implode('', $username);
             $_SESSION['admin'] = implode('', $admin);
             ?>
@@ -29,5 +29,3 @@ else {
         echo 'Vous n\'avez pas rempli tous les champs permettant la connexion';
     }
 }
-
-?>

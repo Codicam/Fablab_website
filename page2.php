@@ -1,5 +1,4 @@
-<?php session_start();
-?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -12,14 +11,10 @@
 <body>
 
 <?php
-
-if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)): ?>
+if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)):?>
     <h3 style="margin: 50px auto;">Ceci est une page test, l'utilisateur doit être connecté pour la voir.</h3>
-<?php
-else: {
+<?php else :
     require('init/Errorpage.php');
-}
-
 endif; ?>
 
 

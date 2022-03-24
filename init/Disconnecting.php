@@ -7,6 +7,5 @@ catch (Exception) {
     echo 'Il n\'y a pas de session active';
 }
 
-sleep(2);
+sleep(1);
 header('Location:../Fablab.php');
-?>
