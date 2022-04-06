@@ -38,6 +38,9 @@
                 <li><a href="#">Scies</a></li>
             </ul>
         </li>
+        <li class="bouton">
+            <a href="Controllers/atelierController.php">Ateliers</a>
+        </li>
         <div class="logbtns">
             <?php include('printpopup.php'); ?>
         </div>
