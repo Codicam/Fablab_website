@@ -1,18 +1,22 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
-    <title>menu déroulant</title>
+    <link rel="stylesheet" href="CSS/menu-deroulant.css" />
+    <title> Formations </title>
     <link rel="stylesheet" type="text/css" href="CSS/styleNav.css">
     <link rel="stylesheet" href="CSS/main.css">
 
 </head>
 <body>
-
 <nav>
+
     <ul>
         <li class="menu-deroulant">
+
             <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
                 <li><a href="Controllers/formationController.php">Maîtriser les imprimantes</a></li>
@@ -45,6 +49,17 @@
         <div class="logbtns">
             <?php include('printpopup.php'); ?>
         </div>
+
+    </ul>
+</nav>
+<h1> Formations </h1>
+<nav>
+    <ul>
+        <li class="menu-formation">
+            <li><a href="Controllers/formationController.php">Maîtriser les imprimantes</a></li>
+            <li><a href="Controllers/formationController.php">Usiner du bois</a></li>
+            <li><a href="Controllers/formationController.php">Usiner du métal</a></li>
+
     </ul>
 </nav>
 
