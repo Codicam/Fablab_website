@@ -1,9 +1,13 @@
+<?php
+require_once('init/index.php');
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/main.css"/>
-    <link rel="stylesheet" href="CSS/styleCarrousel.css"/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/styleCarrousel.css';?>/>
     <title>carrousel des assos</title>
 </head>
 <body>

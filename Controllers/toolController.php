@@ -1,5 +1,5 @@
-<?php session_start();
-
+<?php
+require_once('../init/index.php');
 require_once('../Models/DatabaseModel.php');
 
 if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
@@ -15,5 +15,5 @@ if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
     require('../Outils.php');
 }
 else {
-    require('../init/Errorpage.php');
+    require($GLOBALS['url_root'].'/init/Errorpage.php');
 }

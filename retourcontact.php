@@ -1,6 +1,5 @@
-<?php session_start() ?>
-
 <?php
+require_once('init/index.php');
 
 if ((!isset($_GET['email']) || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) || empty($_GET['email']) ) ||
     (!isset($_GET['message']) || empty($_GET['message'])))
@@ -28,11 +27,8 @@ if (isset($_FILES['screenshot']) AND $_FILES['screenshot']['error'] == 0) {
 <head>
     <meta charset="UTF-8">
     <title>Formulaire de Contact</title>
-    <link
-        href="CSS/Formulaire.css"
-        rel="stylesheet"
-    >
-    <link rel="stylesheet" href="CSS/main.css"/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/Formulaire.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
 </head>
 <body>
 <div>

@@ -1,4 +1,5 @@
-<?php session_start();
+<?php
+require_once('../init/index.php');
 
 if (isset ($_SESSION['username']) || isset ($_SESSION['admin'])) {
     echo 'Bonjour '.$_SESSION['username'].' vous êtes déjà connecté.';

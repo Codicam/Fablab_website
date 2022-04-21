@@ -1,10 +1,14 @@
+<?php
+require_once('init/index.php');
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Outils</title>
-    <link rel="stylesheet" href="CSS/Formulaire.css">
-    <link rel="stylesheet" href="CSS/main.css"/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/Formulaire.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
 </head>
 <body>
 

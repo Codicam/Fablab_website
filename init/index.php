@@ -1,3 +1,3 @@
 <?php session_start();
 
-$_SESSION['authToken'] = 'admin';
+$GLOBALS['url_root'] = "http://localhost:63342/Site_Fablab";

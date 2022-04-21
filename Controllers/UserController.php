@@ -1,9 +1,10 @@
-<?php session_start();
+<?php
 
+require_once('../init/index.php');
 require_once('../Models/DatabaseModel.php');
 require_once('../Models/UserModel.php');
 
-if ($_SESSION['loggeduser']) {
+if (isset ($_SESSION['loggeduser']) && $_SESSION['loggeduser']) {
 
     $infosToPrint = array('Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs', 'Promo_User_Utilisateurs', 'Mail_User_Utilisateurs', 'Password_User');
     foreach ($infosToPrint as $data) {
@@ -11,8 +12,8 @@ if ($_SESSION['loggeduser']) {
         $stringUserData = implode('',$userData);
         $userInfos[] = $stringUserData;
     }
-    require('../userProfile.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/userProfile.php');
 }
 else {
-    require('../init/Errorpage.php');
+    require($GLOBALS['url_root'].'/init/Errorpage.php');
 }

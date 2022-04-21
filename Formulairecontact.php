@@ -1,4 +1,6 @@
-<?php session_start() ?>
+<?php
+require_once('init/index.php');
+?>
 
 <!-- Formulairecontact.php -->
 <!DOCTYPE html>
@@ -9,7 +11,7 @@
     <link
     href="CSS/Formulaire.css"
     rel="stylesheet">
-    <link rel="stylesheet" href="CSS/main.css"/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
 </head>
 
 <body>

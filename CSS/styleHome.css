@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url("../images/Fablab.jpg") fixed no-repeat;
+    background: url("http://localhost:63342/Site_Fablab/images/Fablab.jpg") fixed no-repeat;
     background-size: cover;
     color: white;
 }

@@ -1,11 +1,15 @@
+<?php
+require_once('init/index.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
     <title>menu déroulant</title>
-    <link rel="stylesheet" type="text/css" href="CSS/styleNav.css">
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/styleNav.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
 
 </head>
 <body>
