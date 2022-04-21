@@ -40,10 +40,12 @@
             </ul>
         </li>
         <li class="bouton">
-            <a href="Controllers/atelierController.php">Ateliers</a>
+            <a href="Controllers/UserController.php">Mon Compte</a>
         </li>
         <div class="logbtns">
-            <?php include('printpopup.php'); ?>
+            <?php
+                include('printpopup.php');
+            ?>
         </div>
     </ul>
 </nav>

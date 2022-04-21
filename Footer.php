@@ -53,7 +53,7 @@
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
             <div style="margin: auto;">
-                <a class="button" data-modal="modalDisconnect" href="init/Disconnecting.php">
+                <a class="button" data-modal="modalDisconnect" href="init/logout.php">
                     SE DECONNECTER
                 </a>
             </div>
@@ -95,7 +95,7 @@
             event.target.style.display = "none";
         }
     };
-</script>
 
+</script>
 </body>
 </html>

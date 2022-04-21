@@ -6,7 +6,6 @@ if ((!isset($_POST['prenom']) || empty($_POST['prenom'])) || (!isset($_POST['nom
     echo('Remplissez tous les champs s\'il vous plaît');
     return;
 }
-
 $cryptedPwd = password_hash($_POST['password'], PASSWORD_BCRYPT);
 require_once('../Models/UserModel.php');
 $userData = (new UserModel)->sign_up($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['promo'], $cryptedPwd);
@@ -16,4 +15,5 @@ $members = (new Database)->getTableInfos('utilisateurs');
 foreach($members as $info) {
     $tableInfos[] = $info['Nom_User_Utilisateurs'].' '.$info['Prenom_User_Utilisateurs'];
 }
+
 require('../printSignUp.php');
