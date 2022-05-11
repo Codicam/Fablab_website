@@ -86,7 +86,7 @@ require_once('init/index.php');
                         <input type="password" class="form-control" placeholder="Entrez votre mot de passe" id="password" name="password">
                         <div class="form-subtext">Votre mot de passe est crypté automatiquement.</div>
                     </div>
-                    <button type="submit" class="subbutton" formtarget="_blank">Se connecter</button>
+                    <button type="submit" class="subbutton">Se connecter</button>
                 </div>
             </form>
         </div>

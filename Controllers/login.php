@@ -25,6 +25,8 @@ else {
             <div >
                 Bonjour <?php echo $_SESSION['username']; ?> et bienvenue, vous pouvez accéder au site.
             </div> <?php
+            sleep(1);
+            header('Location:../Fablab.php');
         }
         else {
             echo 'Email ou mot de passe incorrect, veuillez réessayer';

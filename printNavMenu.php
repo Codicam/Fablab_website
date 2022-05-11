@@ -43,12 +43,15 @@ require_once('init/index.php');
                 <li><a href="#">Scies</a></li>
             </ul>
         </li>
-        <li class="bouton">
-            <a href="Controllers/UserController.php">Mon Compte</a>
-        </li>
+
         <div class="logbtns">
             <?php
+            if (isset($_SESSION['loggeduser'])) {?>
+                <a class="button" href="Controllers/UserController.php">Mon Compte</a>
+            <?php }
+            else {
                 include('printpopup.php');
+            }
             ?>
         </div>
     </ul>
