@@ -8,7 +8,7 @@ $columns = array('Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs', 'Promo_Use
 foreach ($columns as $col) {
     echo $col;
     if (isset($_POST[$col])) {
-        (new Database)->updateUserInfo($col, $_SESSION['user_id'], $_POST[$col]);
+        (new Database)->updateUserInfo($col, $_SESSION['user_id'], $_POST[$col]); //TO FIX
         echo $_POST[$col];
     }
     else {
