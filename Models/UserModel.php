@@ -61,9 +61,9 @@ class UserModel extends Database
         return $check;
     }
 
-    public function updateUserInfo($currentUserId, $info)
+    public function updateUserInfo($column, $currentUserId, $value)
     {
-        $tableQuery = "UPDATE `projet_bdd`.utilisateurs SET ".$column.' = '.$info.' WHERE '.$idUser.' = :currentUserId';
+        $tableQuery = 'UPDATE projet_bdd.utilisateurs SET '.$column.' = '.$value.' WHERE Id_User_Utilisateurs = :currentUserId';
         $stmt = $this->getDatabase()->prepare($tableQuery);
         $stmt->bindParam('currentUserId', $currentUserId);
         $stmt->execute();

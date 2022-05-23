@@ -1,10 +1,18 @@
 <?php
 
 require_once('../init/index.php');
-include($_SERVER['DOCUMENT_ROOT'].'/Models/UserModel.php');
+require_once('../Models/DatabaseModel.php');
+require_once('../Models/UserModel.php');
 
-
-$column = 'Prenom_User_Utilisateurs';
-$idUser = 5;
-$data = (new Database)->updateUserInfo($_SESSION['user_id'],'Theo');
+$columns = array('Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs', 'Promo_User_Utilisateurs', 'Mail_User_Utilisateurs', 'Password_User');
+foreach ($columns as $col) {
+    echo $col;
+    if (isset($_POST[$col])) {
+        (new Database)->updateUserInfo($col, $_SESSION['user_id'], $_POST[$col]);
+        echo $_POST[$col];
+    }
+    else {
+        echo $_POST[$col];
+    }
+}
 
