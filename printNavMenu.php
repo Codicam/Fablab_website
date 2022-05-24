@@ -12,6 +12,9 @@
 
 <nav>
     <ul>
+        <li class="bouton">
+                <a href="Fablab.php">Accueil</a>
+        </li>
         <li class="menu-deroulant">
             <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
@@ -42,16 +45,9 @@
         <li class="bouton">
             <a href="Controllers/atelierController.php">Ateliers</a>
         </li>
-        <div class="logbtns">
-            <?php
-                if (isset($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
-                    include('printpopup.php');
-                }
-                else {
-                    include('printpopup.php');
-                }
-            ?>
-        </div>
+        <li class="logbtns">
+            <?php include('printpopup.php'); ?>
+        </li>
     </ul>
 </nav>
 

@@ -1,5 +1,6 @@
 # Site_Fablab
 
-Ce projet est parfait pour les débutants ! 
+The aim of this project is to provide a site for Toulouse's Fablab at Icam, and learning webdev/design at the same time. 
+This will mainly concern HTML/CSS, PHP, JS. 
 
-Vous pouvez y apprendre et perfectionner votre développement web en créant/designant des pages pour les différentes associations du Fablab.
+This is also a sandbox to test new functionalities and sneak around to see DB management in a dynamic website.

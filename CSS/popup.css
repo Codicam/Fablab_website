@@ -3,6 +3,7 @@
     flex-direction: row;
     width: fit-content;
     justify-content: space-around;
+    background: white;
 }
 
 .box {
