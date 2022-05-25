@@ -57,7 +57,7 @@ require_once('init/index.php');
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
             <div style="margin: auto;">
-                <a class="button" data-modal="modalDisconnect" href="init/logout.php">
+                <a class="button" data-modal="modalDisconnect" href="Controllers/logout.php">
                     SE DECONNECTER
                 </a>
             </div>
@@ -74,7 +74,7 @@ require_once('init/index.php');
             <div>
                 <a class="close">&times;</a>
             </div>
-            <h3>Vous êtes bien déconnecté !</h3>
+            <h3>Vous avez été déconnecté !</h3>
         </div>
     </div>
 </div>
