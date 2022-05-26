@@ -16,6 +16,10 @@ require_once('init/index.php');
 <header id="hautpage">
     <div class="wrapper">
         <div class="headcontent">
+            <?php
+            if (isset($_SESSION['loggeduser'])) { ?>
+                <h2><i>Bonjour <?php echo $_SESSION['username']; ?></i></h2>
+            <?php } ?>
             <h1>BIENVENUE AU FABLAB</h1>
             <p style="text-shadow: 1px 1px 2px black; font-size: 24px">Site Icam de Toulouse</p>
         </div>
@@ -85,7 +89,7 @@ require_once('init/index.php');
                 Et dolorem nihil aut eolorum maxime sed laborum accusamus et delectus tempora est aLorem ipsum dolor sit
                 amet. Eum sequi rerum et dolores sunt ex sapiente dolorem ut tenetur placeat ut aspernatur praesentium.
                 Et velit repellat qui alias voluptatem non autem sint id fugiat inventore ad eius facilis.
-            </p> <! Texte de remplissage ici>
+            </p> <!-- Texte de remplissage ici -->
         </article>
     </div>
 </div>
