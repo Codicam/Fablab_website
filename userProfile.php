@@ -40,8 +40,8 @@ require_once('init/index.php');
                         <div class="form-subtext">Nous ne revendrons pas votre email.</div>
                     </div>
                     <div class="input">
-                        <label for=Password_User class="form-label">Mot de passe :</label>
-                        <input type="password" class="form-control" placeholder=<?php echo $userInfos[4]; ?> id="password" name="Password_User">
+                        <label for=Password_User class="form-label">Définir un nouveau mot de passe :</label>
+                        <input type="password" class="form-control" id="password" name="Password_User">
                         <div class="form-subtext">Votre mot de passe est crypté automatiquement.</div>
                     </div>
                     <button type="submit" class="subbutton">Sauvegarder mes changements</button>
