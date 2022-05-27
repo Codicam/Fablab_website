@@ -1,6 +1,6 @@
 <?php
 
-require_once('../init/index.php');
+require_once('../init/path.php');
 require_once('../Models/DatabaseModel.php');
 require_once('../Models/UserModel.php');
 

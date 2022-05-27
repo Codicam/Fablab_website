@@ -1,5 +1,5 @@
 <?php
-require_once('init/index.php');
+require_once('init/path.php');
 ?>
 
 <!-- Formulairecontact.php -->

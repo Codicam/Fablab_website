@@ -1,5 +1,5 @@
 <?php
-require_once('../init/index.php');
+require_once('../init/path.php');
 
 if ((!isset($_POST['prenom']) || empty($_POST['prenom'])) || (!isset($_POST['nom']) || empty($_POST['nom'])) ||
     (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) || empty($_POST['email'])) ||

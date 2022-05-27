@@ -1,5 +1,5 @@
 <?php
-require_once('init/index.php');
+require_once('init/path.php');
 
 if ((!isset($_GET['email']) || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) || empty($_GET['email']) ) ||
     (!isset($_GET['message']) || empty($_GET['message'])))

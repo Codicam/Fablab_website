@@ -1,5 +1,5 @@
 <?php
-require_once('../init/index.php');
+require_once('../init/path.php');
 
 if (isset ($_SESSION['username']) || isset ($_SESSION['admin'])) {
     echo 'Bonjour '.$_SESSION['username'].' vous êtes déjà connecté.';
