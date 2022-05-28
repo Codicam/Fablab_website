@@ -36,23 +36,50 @@
             <h3 style="font-size: 24px; font-weight: bold;"> Formations disponibles </h3>
         </div>
 
-        <div class="NometDate">
+        <div class="NometDate" style="text-align: start">
             <div class="NomForm">
-                <p> atelier projet perso </p>
+                <p style="position: relative; left: 15px; text-transform: uppercase;">
+                    Atelier Projets Personnels </p> <br/>
+                <p style="position: relative; left: 15px; text-transform: uppercase;">
+                    Formation Théorique </p> <br/>
+                <p style="position: relative; left: 15px; text-transform: uppercase;">
+                    Formation Pratique </p> <br/>
             </div>
 
-            <div class="DateForm">
-                10/09/22
+            <div class="DateForm" style="text-align: center;">
+                <p style="position: relative; left: 15px; text-transform: uppercase;"> 10/09/22 </p> <br/>
+                <p style="position: relative; left: 15px; text-transform: uppercase;"> 10/10/22 </p> <br/>
+                <p style="position: relative; left: 15px; text-transform: uppercase;"> 11/10/22 </p> <br/>
             </div>
+
+            <div class="BtnInscription">
+                <p style="text-align: center"> <button class="button_inscription"> Je m'inscris </button> </p> <br/>
+                <p style="text-align: center"> <button class="button_inscription"> Je m'inscris </button> </p> <br/>
+                <p style="text-align: center"> <button class="button_inscription"> Je m'inscris </button> </p> <br/>
+
+            </div>
+
 
         </div>
     </div>
 
     <div class="Documentation">
-        <h3 style="font-size: 24px; font-weight: bold;"> Documentation </h3>
+        <div class="titre">
+            <h3 style="font-size: 24px; font-weight: bold;"> Documentation </h3>
+        </div>
+
+        <div class="LiensDoc">
+            <p> <a class="lien" href="../Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="../images/logo_telecharger.png"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
+            </p>
+        </div>
+
     </div>
 
 </div>
+
+<div class="separator"></div>
+
+<?php require('Footer.php'); ?>
 
 </body>
 </html>

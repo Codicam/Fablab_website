@@ -10,7 +10,7 @@
 html, body, header, main {
     text-align: center;
     width: 100%;
-    height: 20%;
+    height: 100%;
 }
 
 h1 {
@@ -48,6 +48,7 @@ a {
     margin: 15px;
     background: white;
 }
+
 .button:hover {
     transition: 200ms ease-out;
     color: orange;
@@ -126,18 +127,18 @@ header {
     flex-direction: column;
     width: 50%;
     height: 100%;
-
 }
+
 .Documentation{
     width: 50%;
     height: 100%;
 }
+
 .NometDate{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 90%;
-    border: solid;
 }
 
 .titre{
@@ -146,13 +147,50 @@ header {
 }
 
 .NomForm{
-    width: 50%;
+    width: 33%;
     height: 100%;
-    border: solid;
-}
-.DateForm{
-    width: 50%;
-    height: 100%;
-    border: solid;
 }
 
+.DateForm{
+    width: 33%;
+    height: 100%;
+}
+
+.button_inscription {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-style: none;
+    background: white;
+}
+
+.button_inscription:hover {
+    transition: 200ms ease-out;
+    color: orange;
+}
+
+.BtnInscription{
+    width: 33%;
+    height: 100%;
+}
+
+.LiensDoc {
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+
+.lien {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-style: none;
+    font-size: 16px;
+    background: white;
+}
+
+.lien:hover {
+    transition: 200ms ease-out;
+    color: orange;
+}
