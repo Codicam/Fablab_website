@@ -33,11 +33,12 @@
 <div class="frame_box">
     <div class="FormationsDisp">
         <div class="titre">
-            <h3 style="font-size: 24px; font-weight: bold;"> Formations disponibles </h3> <br/>
+            <h3 style="font-size: 24px; font-weight: bold;"> Formations disponibles </h3>
         </div>
+
         <div class="NometDate">
             <div class="NomForm">
-                atelier projet perso
+                <p> atelier projet perso </p>
             </div>
 
             <div class="DateForm">
