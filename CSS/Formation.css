@@ -23,6 +23,7 @@ footer {
     background-size: cover;
     height: 50%;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hiddenscrollbar {
@@ -49,13 +50,20 @@ footer {
     height: 50%;
 }
 .carrousel_box {
+    background-color: white;
     display: table;
     text-align: center;
     width: 100%;
     height: 100%;
     box-shadow: -1px 2px 20px 3px white inset;
 
+
 }
+
+.border_corner{
+    border-radius: 100px;
+}
+
 .c_title {
     text-shadow: 2px 2px 10px white;
     text-decoration: none;
@@ -64,14 +72,18 @@ footer {
     display: table-cell;
     vertical-align: middle;
     color: white;
-    background: rgba(0,0,0,0.4);
     border: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .textCarrousel {
     display: table-cell;
     vertical-align: middle;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 20px;
+    font-size-adjust: 1;
 }
 
 .scrollFade {
@@ -100,6 +112,29 @@ footer {
     background-size: cover;
     transition: 300ms ease-out;
 }
+
+#elec {
+    background: url("../images/elecnb.jpg") center;
+    background-size: cover;
+    transition: 300ms ease-out;
+}
+#elec:hover {
+    background: url("../images/elec.jpg");
+    background-size: cover;
+    transition: 300ms ease-out;
+}
+
+#bois {
+    background: url("../images/boisnb.jpg") center;
+    background-size: cover;
+    transition: 300ms ease-out;
+}
+#bois:hover {
+    background: url("../images/bois.jpg");
+    background-size: cover;
+    transition: 300ms ease-out;
+}
+
 #pagecontainer {
     display: flex;
     overflow: auto;

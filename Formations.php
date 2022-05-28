@@ -14,10 +14,12 @@
     <div class="wrapper">
         <div class="headcontent">
             <h1>FORMATIONS</h1>
-            <p style="text-shadow: 1px 1px 2px black; font-size: 24px">Être formé(e) et former les autres</p>
+            <p style="text-shadow: 1px 1px 2px black; font-size: 24px; font-family: 'Montserrat', sans-serif;">Être formé(e) et former les autres</p>
         </div>
     </div>
 </header>
+
+
 
 <div class="separator"></div>
 
@@ -26,26 +28,47 @@
 <div class="separator"></div>
 
 <div class="frame_box scrollFade">
-    <div class="carrousel_box" id="imprimante3d">
+    <div class="carrousel_box border_corner" id="imprimante3d">
         <a href="" class="c_title">Imprimante 3D</a>
     </div>
-        <div class="carrousel_box">
+        <article>
+            <p> lol </p>
             <p class="textCarrousel"> Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
                 accusamus natus non eveniet nemo. Aut laboriosam facere sed voluptatibus ullam aut molestiae officia ab
                 dolor numquam qui suscipit nostrum? Ab expedita quos sed consequatur numquam non dolorem qui sunt
                 repellendus id adipisci odit non perferendis fugit. Eos inventore voluptas qui vitae eligendi non
                 laborum amet eos architecto fugit.
-                Lorem ipsum dolor sit amet. Eum sequi reru </p>
-        </div>
+                Lorem ipsum dolor sit amet. Eum sequi reru </p> <br/>
+        </article>
 
+
+</div>
+
+<text><p>lol</p></text>
+
+<div class="separator"></div>
+
+<div class="frame_box scrollFade">
+
+    <div class="carrousel_box">
+        <p class="textCarrousel"> Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+            accusamus natus non eveniet nemo. Aut laboriosam facere sed voluptatibus ullam aut molestiae officia ab
+            dolor numquam qui suscipit nostrum? Ab expedita quos sed consequatur numquam non dolorem qui sunt
+            repellendus id adipisci odit non perferendis fugit. Eos inventore voluptas qui vitae eligendi non
+            laborum amet eos architecto fugit.
+            Lorem ipsum dolor sit amet. Eum sequi reru </p>
+    </div>
+    <div class="carrousel_box border_corner" id="elec">
+        <a href="" class="c_title">Electronique</a>
+    </div>
 
 </div>
 
 <div class="separator"></div>
 
 <div class="frame_box scrollFade">
-    <div class="carrousel_box" id="imprimante3d">
-        <a href="" class="c_title">Imprimante 3D</a>
+    <div class="carrousel_box border_corner" id="bois">
+        <a href="" class="c_title">Usiner du bois</a>
     </div>
     <div class="carrousel_box">
         <p class="textCarrousel"> Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
@@ -59,8 +82,31 @@
 
 </div>
 
+<div class="separator"></div>
+
+<div class="frame_box scrollFade">
+
+    <div class="carrousel_box">
+        <div class="frame_box">
+        <p class="textCarrousel"> Test</p>
+        <p class="textCarrousel"> Est aliquid voluptatem ad omnis magni qui dolorum maxime sed laborum accusamus et delectus tempora est
+            accusamus natus non eveniet nemo. Aut laboriosam facere sed voluptatibus ullam aut molestiae officia ab
+            dolor numquam qui suscipit nostrum? Ab expedita quos sed consequatur numquam non dolorem qui sunt
+            repellendus id adipisci odit non perferendis fugit. Eos inventore voluptas qui vitae eligendi non
+            laborum amet eos architecto fugit.
+            Lorem ipsum dolor sit amet. Eum sequi reru </p>
+    </div>
+    </div>
+    <div class="carrousel_box border_corner" id="elec">
+        <a href="" class="c_title">Electronique</a>
+    </div>
+
+</div>
+
 <?php require('Footer.php'); ?>
 
+<script src="JavaScript/floatable.js"></script>
+<script src="JavaScript/floatabletext.js"></script>
 </body>
 <script src="JavaScript/scrollfade.js"></script>
 
