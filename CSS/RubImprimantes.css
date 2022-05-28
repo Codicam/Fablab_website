@@ -1,0 +1,157 @@
+* {
+    font-family: "Montserrat", "Calibri", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Type de police*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+html, body, header, main {
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 1000;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    text-shadow: 2px 4px 3px lightgray;
+}
+
+.icone {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-style: none;
+    border-bottom: 2px solid black;
+    font-size: 1em;
+    margin: 15px;
+    background: white;
+}
+.button:hover {
+    transition: 200ms ease-out;
+    color: orange;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+.separator {
+    display: block;
+    margin: 50px 15%;
+    background: black;
+    border: 0.5px solid black;
+    width: 70%;
+    height: 0;
+    padding: 0;
+
+}
+
+.separator2 {
+    display: block;
+    margin: 0px;
+    background: orange;
+    border: solid orange;
+    width: 100%;
+    height: 0;
+    padding: 0;
+
+}
+.trait {
+    background: black;
+    border: 0.5px solid black;
+    width: 20%;
+    height: 0;
+    padding: 0;
+}
+body {
+    background: none;
+}
+
+header {
+    background: url("../images/Imprimantes3D.png") fixed no-repeat;
+    background-size: cover;
+    height: 20%;
+    color: white;
+}
+
+.headcontent {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px 15px black;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+.hiddenscrollbar {
+    overflow: hidden;
+    height: 100%;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+.frame_box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.FormationsDisp {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+}
+.Documentation{
+    width: 50%;
+    height: 100%;
+}
+.NometDate{
+    flex-basis: auto;
+    width: 100%;
+    height: 90%;
+    border: solid;
+}
+
+.titre{
+    width: 100%;
+    height: 10%;
+}
+
+.NomForm{
+    width: 50%;
+    height: 100%;
+    border: solid;
+}
+.DateForm{
+    width: 50%;
+    height: 100%;
+    border: solid;
+}
+
