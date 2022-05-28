@@ -69,7 +69,7 @@
         </div>
 
         <div class="LiensDoc">
-            <p> <a class="lien" href="../Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="../images/logo_telecharger.png"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
+            <p> <a class="lien" href="../Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="../images/logo_telecharger.png" alt="logo_telecharger" title="logo_telecharger"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
             </p>
         </div>
 
