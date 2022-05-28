@@ -44,7 +44,6 @@
 
 </div>
 
-<text><p>lol</p></text>
 
 <div class="separator"></div>
 
