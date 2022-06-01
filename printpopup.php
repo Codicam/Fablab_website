@@ -52,6 +52,11 @@ require_once('init/path.php');
                         <label for="password" class="form-label">Mot de passe :</label>
                         <input type="password" class="form-control" placeholder="Entrez votre mot de passe" id="password"
                                name="password">
+                    </div>
+                    <div class="input">
+                        <label for="pwdConfirmation" class="form-label">Confirmez votre mot de passe :</label>
+                        <input type="password" class="form-control" placeholder="Confirmez votre mot de passe" id="pwdConfirmation"
+                               name="password">
                         <div class="form-subtext">Votre mot de passe est crypté automatiquement.</div>
                     </div>
                     <div class="input">
@@ -113,6 +118,17 @@ require_once('init/path.php');
             event.target.style.display = "none";
         }
     };
+
+function matchingPwd(){
+
+    var pwd = document.getElementById("password").value;
+    var pwdConfirmed = document.getElementById("pwdConfirmation").value;
+    if (pwd != pwdConfirmed) {
+    alert("Les mots de passe ne correspondent pas !");
+    return false;
+    }
+}
+
 </script>
 
 </body>

@@ -15,13 +15,14 @@ require_once('init/path.php');
 <div>
     <div style="text-align: left; margin: 50px 50px; width: 30%;">
         <h3>
-            <strong>Voici vos informations personnelles :</strong>
+            <strong>Vos informations personnelles :</strong>
         </h3>
         <p><br />
-            <i>(Les informations des champs que vous ne remplissez pas ne seront pas changées.)</i>
+            <i>(Les informations des champs que vous ne remplissez pas ne seront pas changées)</i>
         </p>
+
         <div class="contact-form">
-            <form action="<?php echo $GLOBALS['url_root'].'/Controllers/updateUserInfos.php' ?>" method="POST">
+            <form onSubmit="return matchingPwd();" action="<?php echo $GLOBALS['url_root'].'/Controllers/updateUserInfos.php' ?>" method="POST">
                     <div class="input">
                         <label for=Nom_User_Utilisateurs class="form-label">Nom :</label>
                         <input type="text" class="form-control" placeholder=<?php echo $userInfos[0]; ?> id="message" name="Nom_User_Utilisateurs"/>
@@ -42,6 +43,10 @@ require_once('init/path.php');
                     <div class="input">
                         <label for=Password_User class="form-label">Définir un nouveau mot de passe :</label>
                         <input type="password" class="form-control" id="password" name="Password_User">
+                    </div>
+                    <div class="input">
+                        <label for=Password_User_Confirmation class="form-label">Confirmer le nouveau mot de passe :</label>
+                        <input type="password" class="form-control" id="pwdConfirmation" name="pwdConfirmation">
                         <div class="form-subtext">Votre mot de passe est crypté automatiquement.</div>
                     </div>
                     <button type="submit" class="subbutton">Sauvegarder mes changements</button>
@@ -52,3 +57,14 @@ require_once('init/path.php');
 
 </body>
 </html>
+
+<script>
+    function matchingPwd(){
+        var pwd = document.getElementById("password").value;
+        var pwdConfirmed = document.getElementById("pwdConfirmation").value;
+        if (pwd != pwdConfirmed) {
+            alert("Les mots de passe ne correspondent pas !");
+            return false;
+        }
+    }
+</script>
