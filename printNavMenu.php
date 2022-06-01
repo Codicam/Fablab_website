@@ -16,6 +16,9 @@ require_once('init/path.php');
 
 <nav>
     <ul>
+        <li class="bouton">
+                <a href="Fablab.php">Accueil</a>
+        </li>
         <li class="menu-deroulant">
             <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
