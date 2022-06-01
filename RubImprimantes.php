@@ -6,13 +6,9 @@ require_once('init/path.php');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/menu-deroulant.css';?> />
     <title> Maîtriser les imprimantes </title>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/styleNav.css';?>>
     <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/RubImprimantes.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/styleFooter.css';?>/>
-
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
 
 </head>
 <body>
@@ -70,15 +66,13 @@ require_once('init/path.php');
         </div>
 
         <div class="LiensDoc">
-            <p> <a class="lien" href="../Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="http://localhost:63342/Site_Fablab/images/logo_telecharger.png" alt="logo_telecharger" title="logo_telecharger"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
+            <p> <a class="lien" href="/Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="http://localhost:63342/Site_Fablab/images/logo_telecharger.png" alt="logo_telecharger" title="logo_telecharger"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
             </p>
         </div>
 
     </div>
 
 </div>
-
-<div class="separator"></div>
 
 <?php require('Footer.php'); ?>
 

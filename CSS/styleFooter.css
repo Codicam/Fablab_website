@@ -75,3 +75,11 @@
     bottom: 0;
     right:0;
 }
+
+footer {
+    border-top: 3px solid orange;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+}
+
