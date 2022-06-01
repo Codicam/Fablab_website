@@ -20,19 +20,19 @@ require_once('init/path.php');
             <h4>Retrouvez nous !</h4><br />
             <div class="btnfoot" >
                 <a href="https://www.instagram.com/fabricam.toulouse/?hl=fr" class="linkfoot" target="_blank">
-                    <img src="/images/instagram.png" alt="instagram" class="icone">
+                    <img src="<?php echo $GLOBALS['url_root'].'/images/instagram.png';?>" alt="instagram" class="icone">
                     <p>Instagram</p>
                 </a>
             </div>
             <div class="btnfoot">
                 <a href="page2.php" class="linkfoot" target="_blank">
-                    <img src="/images/facebook.png" alt="facebook" class="icone">
+                    <img src="<?php echo $GLOBALS['url_root'].'/images/facebook.png';?>" alt="facebook" class="icone">
                     <p>Facebook</p>
                 </a>
             </div>
             <div class="btnfoot">
                 <a href="Formulairecontact.php" class="linkfoot" target="_blank">
-                    <img src="/images/Mail.png" alt="Email" class="icone">
+                    <img src="<?php echo $GLOBALS['url_root'].'/images/Mail.png';?>" alt="Email" class="icone">
                     <p>Mail</p>
                 </a>
             </div>
@@ -44,7 +44,7 @@ require_once('init/path.php');
             </p>
             <div id="map">
                 <a href="https://www.google.fr/maps/place/75+Av.+de+Grande+Bretagne,+31300+Toulouse/@43.5984635,1.4130863,17z/" target="_blank">
-                    <img src="/images/icamcarte.png" class="carte" alt="Adresse de l'icam" />
+                    <img src="<?php echo $GLOBALS['url_root'].'/images/icamcarte.png';?>" class="carte" alt="Adresse de l'icam" />
                 </a>
             </div>
         </div>
@@ -63,7 +63,7 @@ require_once('init/path.php');
             </div>
         </div>
         <div id="logocodicam">
-            <img src="/images/Logocodicam.png" alt="Made by Cod'icam, Logo Cod'icam" width="100px">
+            <img src="<?php echo $GLOBALS['url_root'].'/images/Logocodicam.png';?>" alt="Made by Cod'icam, Logo Cod'icam" width="100px">
         </div>
     </div>
 </footer>
