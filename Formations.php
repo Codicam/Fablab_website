@@ -108,10 +108,9 @@ require_once('init/path.php');
 
 <?php require('Footer.php'); ?>
 
-<script src="JavaScript/floatable.js"></script>
-<script src="JavaScript/floatabletext.js"></script>
+<script src="<?php echo $GLOBALS['url_root'].'/JavaScript/floatable.js';?>"></script>
 </body>
-<script src="JavaScript/scrollfade.js"></script>
+<script src="<?php echo $GLOBALS['url_root'].'/JavaScript/scrollfade.js';?>"></script>
 
 </html>
 
