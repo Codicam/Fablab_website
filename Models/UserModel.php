@@ -58,6 +58,6 @@ class UserModel extends Database
         if (password_verify($password, $data['Password_User'])) {
             $check = true;
         }
-        return $check;ss
+        return $check;
     }
 }
