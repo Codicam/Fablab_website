@@ -19,7 +19,7 @@ footer {
 /*//////////////////////////////////////////////////////////////////////*/
 
 .header {
-    background: url("../images/Formation.jpg") fixed no-repeat;
+    background: url("http://localhost:63342/Site_Fablab/images/Formation.jpg") fixed no-repeat;
     background-size: cover;
     height: 50%;
     color: white;
@@ -103,34 +103,34 @@ footer {
 }
 
 #imprimante3d {
-    background: url("../images/imprimante3dnb.jpg") center;
+    background: url("http://localhost:63342/Site_Fablab/images/imprimante3dnb.jpg") center;
     background-size: cover;
     transition: 300ms ease-out;
 }
 #imprimante3d:hover {
-    background: url("../images/imprimante3d.jpg");
+    background: url("http://localhost:63342/Site_Fablab/images/imprimante3d.jpg");
     background-size: cover;
     transition: 300ms ease-out;
 }
 
 #elec {
-    background: url("../images/elecnb.jpg") center;
+    background: url("http://localhost:63342/Site_Fablab/images/elecnb.jpg") center;
     background-size: cover;
     transition: 300ms ease-out;
 }
 #elec:hover {
-    background: url("../images/elec.jpg");
+    background: url("http://localhost:63342/Site_Fablab/images/elec.jpg");
     background-size: cover;
     transition: 300ms ease-out;
 }
 
 #bois {
-    background: url("../images/boisnb.jpg") center;
+    background: url("http://localhost:63342/Site_Fablab/images/boisnb.jpg") center;
     background-size: cover;
     transition: 300ms ease-out;
 }
 #bois:hover {
-    background: url("../images/bois.jpg");
+    background: url("http://localhost:63342/Site_Fablab/images/bois.jpg");
     background-size: cover;
     transition: 300ms ease-out;
 }

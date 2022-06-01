@@ -17,12 +17,12 @@ require_once('init/path.php');
 <nav>
     <ul>
         <li class="bouton">
-                <a href="Fablab.php">Accueil</a>
+                <a href="<?php echo $GLOBALS['url_root'].'/Fablab.php'; ?>">Accueil</a>
         </li>
         <li class="menu-deroulant">
             <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
-                <li><a href="Controllers/formationController.php">Maîtriser les imprimantes</a></li>
+                <li><a href="/RubImprimantes.php">Maîtriser les imprimantes</a></li>
                 <li><a href="Controllers/formationController.php">Usiner du bois</a></li>
                 <li><a href="Controllers/formationController.php">Usiner du métal</a></li>
             </ul>

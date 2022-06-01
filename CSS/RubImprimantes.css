@@ -89,7 +89,7 @@ body {
 }
 
 header {
-    background: url("../images/imprimante3d.jpg") fixed no-repeat;
+    background: url("http://localhost:63342/Site_Fablab/images/imprimante3d.jpg") fixed no-repeat;
     background-size: cover;
     height: 20%;
     color: white;

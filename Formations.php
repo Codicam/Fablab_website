@@ -1,6 +1,3 @@
-<?php
-require_once('init/path.php');
-?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -8,7 +5,7 @@ require_once('init/path.php');
     <meta charset="UTF-8">
     <title>Formations</title>
     <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/Formation.css';?>/>
 </head>
 <body>
 

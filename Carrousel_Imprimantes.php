@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/RubImprimantes.css" />
-    <link rel="stylesheet" href="CSS/StyleCarrousel_Imprimantes.css"/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/RubImprimantes.css';?>/>
+    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/StyleCarrousel_Imprimantes.css';?>/>
     <title>carrousel des imprimantes</title>
 </head>
 <body>
