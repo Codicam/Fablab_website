@@ -10,7 +10,7 @@
 html, body, header, main {
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 20%;
 }
 
 h1 {
@@ -25,6 +25,21 @@ h3 {
     margin-right: auto;
     color: orange;
     text-shadow: 2px 4px 3px lightgray;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    text-shadow: 2px 4px 3px lightgray;
+}
+h5 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    font-size: 20px;
 }
 
 .icone {
@@ -88,11 +103,12 @@ body {
     background: none;
 }
 
-header {
+.header {
     background: url("http://localhost:63342/Site_Fablab/images/imprimante3d.jpg") fixed no-repeat;
     background-size: cover;
-    height: 20%;
+    height: 50%;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .headcontent {
@@ -121,6 +137,7 @@ header {
     flex-direction: row;
     width: 100%;
     height: 100%;
+    background: linear-gradient(white, lightgray);
 }
 
 .FormationsDisp {
@@ -138,20 +155,36 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 90%;
+    height: 80%;
 }
+
 
 .titre{
     width: 100%;
     height: 10%;
-}
 
+}
+.titre2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+
+}
 .NomForm{
+    width: 33%;
+    height: 100%;
+}
+.TitreNomForm{
     width: 33%;
     height: 100%;
 }
 
 .DateForm{
+    width: 33%;
+    height: 100%;
+}
+.TitreDateForm{
     width: 33%;
     height: 100%;
 }
@@ -163,7 +196,7 @@ header {
     font-size: 16px;
     border-style: none;
     border-bottom: 2px solid black;
-    background: white;
+    background: none;
 }
 
 .button_inscription:hover {
@@ -190,10 +223,61 @@ header {
     text-transform: uppercase;
     border-style: none;
     font-size: 16px;
-    background: white;
+    background: none;
 }
 
 .lien:hover {
     transition: 200ms ease-out;
     color: orange;
+}
+
+#Description1:target{
+    display: flex;
+}
+#Description2:target{
+    display: flex;
+}
+#Description3:target{
+    display: flex;
+}
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    padding: 1.5em 2em;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: grey;
+    text-decoration: none;
+}
+.close:hover,
+.close:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    transition : 200ms ease-out;
 }
