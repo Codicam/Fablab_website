@@ -23,8 +23,9 @@ require_once('init/path.php');
             <a href="Controllers/formationController.php">Formations</a>
             <ul class="sous-menu">
                 <li><a href="/RubImprimantes.php">Maîtriser les imprimantes</a></li>
+                <li><a href="Controllers/formationController.php">Electronique</a></li>
                 <li><a href="Controllers/formationController.php">Usiner du bois</a></li>
-                <li><a href="Controllers/formationController.php">Usiner du métal</a></li>
+                <li><a href="Controllers/formationController.php">Autres</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
