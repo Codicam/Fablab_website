@@ -6,8 +6,8 @@ require_once('init/path.php');
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/styleHome.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/styleHome.css';?>"/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
     <title>Bienvenue au Fablab !</title>
 
 </head>

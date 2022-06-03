@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Error</title>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
 </head>
 <body>
 

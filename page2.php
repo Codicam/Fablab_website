@@ -7,8 +7,8 @@ require_once('init/path.php');
 <head>
     <meta charset="UTF-8">
     <title>Page test</title>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>"/>
 </head>
 <body>
 

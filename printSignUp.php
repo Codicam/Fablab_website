@@ -7,7 +7,7 @@ require_once('init/path.php');
 <head>
     <meta charset="UTF-8">
     <title>Inscription</title>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
 </head>
 <body>
 
