@@ -20,21 +20,21 @@ require_once('init/path.php');
                 <a href="<?php echo $GLOBALS['url_root'].'/Fablab.php'; ?>">Accueil</a>
         </li>
         <li class="menu-deroulant">
-            <a href="Controllers/formationController.php">Formations</a>
+            <a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Formations</a>
             <ul class="sous-menu">
-                <li><a href="/RubImprimantes.php">Maîtriser les imprimantes</a></li>
-                <li><a href="Controllers/formationController.php">Electronique</a></li>
-                <li><a href="Controllers/formationController.php">Usiner du bois</a></li>
-                <li><a href="Controllers/formationController.php">Autres</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/RubImprimantes.php'; ?>">Maîtriser les imprimantes</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Electronique</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du bois</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du métal</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
-            <a href="Controllers/toolController.php">Outils</a>
+            <a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Outils</a>
             <ul class="sous-menu">
-                <li><a href="Controllers/toolController.php">Bois</a></li>
-                <li><a href="Controllers/toolController.php">Métaux</a></li>
-                <li><a href="Controllers/toolController.php">Plastique</a></li>
-                <li><a href="Controllers/toolController.php">Electronique</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Bois</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Métaux</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Plastique</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Electronique</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
@@ -51,7 +51,7 @@ require_once('init/path.php');
         <div class="logbtns">
             <?php
             if (isset($_SESSION['loggeduser'])) {?>
-                <a class="button" href="Controllers/UserController.php">Mon Compte</a>
+                <a class="button" href="<?php echo $GLOBALS['url_root'].'/Controllers/UserController.php'; ?>">Mon Compte</a>
             <?php }
             else {
                 include('printpopup.php');
