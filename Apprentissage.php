@@ -4,6 +4,9 @@
         ['Louise','Delseny','louise.delseny@2027.icam.fr','OP',0,false,false],['Elio','Carponcin','elio.carponcin@2024.icam.fr','A124',0,false,false],
         ['Killian','Larcher','killian.larcher@2024.icam.fr','I124',2,true,false],['Margot','Delbeque','margot.delbeque@2025.icam.fr','O2',0,true,false]
     ];
+
+    //writing test for remote file
+
     ?>
 
 <!DOCTYPE html>

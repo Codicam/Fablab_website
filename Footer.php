@@ -57,7 +57,7 @@ require_once('init/path.php');
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
             <div style="margin: auto;">
-                <a class="button" data-modal="modalDisconnect" href="Controllers/logout.php">
+                <a class="button" data-modal="modalDisconnect" href="<?php echo $GLOBALS['url_root'].'/Controllers/logout.php';?>">
                     SE DECONNECTER
                 </a>
             </div>

@@ -22,8 +22,8 @@ require_once('init/path.php');
         <li class="menu-deroulant">
             <a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Formations</a>
             <ul class="sous-menu">
-                <li><a href="<?php echo $GLOBALS['url_root'].'/RubImprimantes.php'; ?>">Maîtriser les imprimantes</a></li>
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Electronique</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/RubImprimantes.php'; ?>">Maîtriser les imprimantes</a></li>
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du bois</a></li>
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du métal</a></li>
             </ul>
@@ -32,9 +32,9 @@ require_once('init/path.php');
             <a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Outils</a>
             <ul class="sous-menu">
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Bois</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Electronique</a></li>
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Métaux</a></li>
                 <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Plastique</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Electronique</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
