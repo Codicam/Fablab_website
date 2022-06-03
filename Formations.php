@@ -12,8 +12,6 @@ require_once('init/path.php');
 </head>
 <body>
 
-<?php require('printNavMenu.php'); ?>
-
 <header class="header">
     <div class="wrapper">
         <div class="headcontent">
@@ -23,7 +21,7 @@ require_once('init/path.php');
     </div>
 </header>
 
-
+<?php require('printNavMenu.php'); ?>
 
 <div class="separator"></div>
 
@@ -33,7 +31,7 @@ require_once('init/path.php');
 
 <div class="frame_box scrollFade">
     <div class="carrousel_box border_corner" id="imprimante3d">
-        <a href="<?php echo $GLOBALS['url_root'].'/RubImprimantes.php'; ?>" class="c_title">Imprimante 3D</a>
+        <a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>" class="c_title">Imprimante 3D</a>
     </div>
         <article>
             <p style="text-shadow: 1px 1px 2px black; font-size: 24px;border: 1px solid black; padding: 5px;">Imprimante 3D</p>

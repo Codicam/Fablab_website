@@ -17,7 +17,12 @@ require_once('init/path.php');
         <h2>Voici les outils disponibles</h2>
     </div>
     <div>
-        <p> <?= implode('<br/>',$tableInfos) ?></p>
+        <p>
+            <?php
+
+                echo implode(', ',$tableInfos);
+
+            ?></p>
     </div>
 </div>
 

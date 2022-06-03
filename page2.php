@@ -15,6 +15,7 @@ require_once('init/path.php');
 <?php
 if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)):?>
     <h3 style="margin: 50px auto;">Ceci est une page test, l'utilisateur doit être connecté pour la voir.</h3>
+    <?php echo $_SERVER['DOCUMENT_ROOT']; ?>
 <?php else :
     require('init/Errorpage.php');
 endif; ?>

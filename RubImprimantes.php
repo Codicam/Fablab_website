@@ -14,9 +14,7 @@ require_once('init/path.php');
 </head>
 <body>
 
-<?php require('printNavMenu.php'); ?>
-
-<header class="header">
+<header class="header1">
     <div class="wrapper">
         <div class="headcontent">
             <h1>Maîtriser les Imprimantes</h1>
@@ -25,6 +23,7 @@ require_once('init/path.php');
     </div>
 </header>
 
+<?php require('printNavMenu.php'); ?>
 
 <div class="separator"></div>
 
@@ -44,37 +43,37 @@ require_once('init/path.php');
         </div>
         <div class="NometDate" style="text-align: start">
             <div class="NomForm">
-                    <a class="lien" href="#Description1" style="position: relative; left: 15px; text-transform: uppercase;"> Atelier Projets Personnels </a>
+                <a class="lien" href="#Description1" style="position: relative; left: 15px; text-transform: uppercase;"> Atelier Projets Personnels </a>
 
-                    <div id="Description1" class="modal">
-                        <div class="modal-content">
-                            <h5>Description de la formation</h5> <br/>
-                            <p style="text-align: justify">Lors de cette formation, vous pourrez commencer ou poursuivre vos projets personnels. Tout cela encadré par un ou plusieurs membres du FabLab qui sera à votre écoute si vous avez des interrogations.
-                            </p>
+                <div id="Description1" class="modal">
+                    <div class="modal-content">
+                        <h5>Description de la formation</h5> <br/>
+                        <p style="text-align: justify">Lors de cette formation, vous pourrez commencer ou poursuivre vos projets personnels. Tout cela encadré par un ou plusieurs membres du FabLab qui sera à votre écoute si vous avez des interrogations.
+                        </p>
 
                         <a href="#" class="close">&times;</a>
                     </div>
-                    </div>
-                    <a class="lien" href="#Description2" style="position: relative; left: 15px; text-transform: uppercase;"> Formation Théorique </a>
+                </div>
+                <a class="lien" href="#Description2" style="position: relative; left: 15px; text-transform: uppercase;"> Formation Théorique </a>
 
-                    <div id="Description2" class="modal">
-                        <div class="modal-content">
-                            <h5>Description de la formation</h5> <br/>
-                            <p style="text-align: justify"> Lors de cette formation, vous apprendrez les bases de l'utilisation des Imprimantes 3D du FabLab. Vous pourrez retrouver les toutes informations, dans la documentation disponibles en téléchargement sur notre site.
-                            </p>
-                            <a href="#" class="close">&times;</a>
-                        </div>
+                <div id="Description2" class="modal">
+                    <div class="modal-content">
+                        <h5>Description de la formation</h5> <br/>
+                        <p style="text-align: justify"> Lors de cette formation, vous apprendrez les bases de l'utilisation des Imprimantes 3D du FabLab. Vous pourrez retrouver les toutes informations, dans la documentation disponibles en téléchargement sur notre site.
+                        </p>
+                        <a href="#" class="close">&times;</a>
                     </div>
-                    <br/>
-                    <a class="lien" href="#Description3" style="position: relative; left: 15px; text-transform: uppercase;">Formation Pratique </a>
-                    <div id="Description3" class="modal">
-                        <div class="modal-content">
-                            <h5>Description de la formation</h5> <br/>
-                            <p style="text-align: justify">Lors de cette formation, vous pourrez mettre en pratique toutes les connaissances acquises lors de la formation théorique. Si vous avez des pièces à imprimer en particulier, n'hésitez pas à venir avec les fichiers STL, nous pourrons calibrer l'impression ensemble.
-                            </p>
-                            <a href="#" class="close">&times;</a>
-                        </div>
+                </div>
+                <br/>
+                <a class="lien" href="#Description3" style="position: relative; left: 15px; text-transform: uppercase;">Formation Pratique </a>
+                <div id="Description3" class="modal">
+                    <div class="modal-content">
+                        <h5>Description de la formation</h5> <br/>
+                        <p style="text-align: justify">Lors de cette formation, vous pourrez mettre en pratique toutes les connaissances acquises lors de la formation théorique. Si vous avez des pièces à imprimer en particulier, n'hésitez pas à venir avec les fichiers STL, nous pourrons calibrer l'impression ensemble.
+                        </p>
+                        <a href="#" class="close">&times;</a>
                     </div>
+                </div>
             </div>
 
             <div class="DateForm" style="text-align: center;">
@@ -100,7 +99,7 @@ require_once('init/path.php');
         <div class="titre">
             <h3 style="font-size: 24px; font-weight: bold;"> Documentation </h3>
         </div>
-<div class="titre2"></div>
+        <div class="titre2"></div>
         <div class="LiensDoc">
             <p> <a class="lien" href="/Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="<?php echo $GLOBALS['url_root'].'/images/logo_telechargement.png';?>" alt="logo_telecharger" title="logo_telecharger"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
             </p>

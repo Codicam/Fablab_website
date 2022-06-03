@@ -8,4 +8,4 @@ catch (Exception) {
 }
 
 sleep(1);
-header('Location:../Fablab.php');
+header('Location:http://codicam.com/Site_Fablab/Fablab.php');

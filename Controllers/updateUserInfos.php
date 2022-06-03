@@ -1,8 +1,8 @@
 <?php
 
-require_once('../init/path.php');
-require_once('../Models/DatabaseModel.php');
-require_once('../Models/UserModel.php');
+require_once('/home/codicam/www/Site_Fablab/init/path.php');
+require_once($GLOBALS['server_root'].'/Models/DatabaseModel.php');
+require_once($GLOBALS['server_root'].'/Models/UserModel.php');
 
 $columns = array('Nom_User_Utilisateurs', 'Prenom_User_Utilisateurs', 'Promo_User_Utilisateurs', 'Mail_User_Utilisateurs', 'Password_User');
 foreach ($columns as $col) {
@@ -16,4 +16,4 @@ foreach ($columns as $col) {
         }
     }
 }
-header('Location:'.$GLOBALS['url_root'].'/Fablab.php');
+header('Location:'.$GLOBALS['url_root'].'Fablab.php');

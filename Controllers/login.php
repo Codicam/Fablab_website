@@ -1,5 +1,5 @@
 <?php
-require_once('../init/path.php');
+require_once('/home/codicam/www/Site_Fablab/init/path.php');
 
 if (isset ($_SESSION['username']) || isset ($_SESSION['admin'])) {
     echo 'Bonjour '.$_SESSION['username'].' vous êtes déjà connecté.';
@@ -26,7 +26,7 @@ else {
                 Bonjour <?php echo $_SESSION['username']; ?> et bienvenue, vous pouvez accéder au site.
             </div> <?php
             sleep(1);
-            header('Location:../Fablab.php');
+            header('Location:'.$GLOBALS['url_root'].'Fablab.php');
         }
         else {
             echo 'Email ou mot de passe incorrect, veuillez réessayer';

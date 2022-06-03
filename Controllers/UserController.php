@@ -1,8 +1,8 @@
 <?php
 
-require_once('../init/path.php');
-require_once('../Models/DatabaseModel.php');
-require_once('../Models/UserModel.php');
+require('/home/codicam/www/Site_Fablab/init/path.php');
+require_once($GLOBALS['server_root'].'/Models/DatabaseModel.php');
+require_once($GLOBALS['server_root'].'/Models/UserModel.php');
 
 if (isset ($_SESSION['loggeduser']) && $_SESSION['loggeduser']) {
 
@@ -12,8 +12,8 @@ if (isset ($_SESSION['loggeduser']) && $_SESSION['loggeduser']) {
         $stringUserData = implode('',$userData);
         $userInfos[] = $stringUserData;
     }
-    require_once($_SERVER['DOCUMENT_ROOT'].'/userProfile.php');
+    require($GLOBALS['server_root'].'/userProfile.php');
 }
 else {
-    require($GLOBALS['url_root'].'/init/Errorpage.php');
+    require($GLOBALS['server_root'].'/init/Errorpage.php');
 }

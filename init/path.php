@@ -1,3 +1,4 @@
 <?php session_start();
 
-$GLOBALS['url_root'] = "http://localhost:63342/Site_Fablab";
+$GLOBALS['url_root'] = "http://codicam.com/Site_Fablab/";
+$GLOBALS['server_root'] = "/home/codicam/www/Site_Fablab/";

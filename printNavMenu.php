@@ -13,19 +13,18 @@ require_once('init/path.php');
 
 </head>
 <body>
-
 <nav>
     <ul>
         <li class="bouton">
-                <a href="<?php echo $GLOBALS['url_root'].'/Fablab.php'; ?>">Accueil</a>
+            <a href="<?php echo $GLOBALS['url_root'].'/Fablab.php'; ?>">Accueil</a>
         </li>
         <li class="menu-deroulant">
-            <a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Formations</a>
+            <a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Formations</a>
             <ul class="sous-menu">
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Electronique</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/RubImprimantes.php'; ?>">Maîtriser les imprimantes</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du bois</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Usiner du métal</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Electronique</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Maîtriser les imprimantes</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Usiner du bois</a></li>
+                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Usiner du métal</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">

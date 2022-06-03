@@ -1,7 +1,7 @@
 <?php
 
-require_once('../init/path.php');
-require_once('../Models/DatabaseModel.php');
+require_once($GLOBALS['server_root'].'/init/path.php');
+require_once($GLOBALS['server_root'].'/Models/DatabaseModel.php');
 
 if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
 
@@ -13,8 +13,8 @@ if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
             $i++;
         }
     }
-    require('../Atelier.php');
+    require($GLOBALS['server_root'].'/Atelier.php');
 }
 else {
-    require($GLOBALS['url_root'].'/init/Errorpage.php');
+    require($GLOBALS['server_root'].'/init/Errorpage.php');
 }
