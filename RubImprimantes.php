@@ -16,7 +16,7 @@ require_once('init/path.php');
 
 <?php require('printNavMenu.php'); ?>
 
-<header class="header">
+<header class="header1">
     <div class="wrapper">
         <div class="headcontent">
             <h1>Maîtriser les Imprimantes</h1>
