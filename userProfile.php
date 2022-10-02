@@ -62,7 +62,7 @@ require_once('init/path.php');
     function matchingPwd(){
         var pwd = document.getElementById("password").value;
         var pwdConfirmed = document.getElementById("pwdConfirmation").value;
-        if (pwd != pwdConfirmed) {
+        if (pwd !== pwdConfirmed) {
             alert("Les mots de passe ne correspondent pas !");
             return false;
         }
