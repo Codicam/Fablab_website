@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   php-apache:
-    container_name: php-apache-fablab
+    container_name: site-fablab
     build:
       context: .
     volumes:
@@ -15,16 +15,16 @@ services:
       - "traefik.enable=true"
 
 
-      - "traefik.http.routers.php-apache.rule=Host(`fablab-icam-toulouse.com`)"
-      - "traefik.http.routers.php-apache.entrypoints=web"
-      - "traefik.http.routers.php-apache.middlewares=test-redirectscheme"
+      - "traefik.http.routers.fablab.rule=Host(`fablab-icam-toulouse.com`)"
+      - "traefik.http.routers.fablab.entrypoints=web"
+      - "traefik.http.routers.fablab.middlewares=test-redirectscheme"
 
 
 
-      - "traefik.http.routers.php-apache-secure.rule=Host(`fablab-icam-toulouse.com`)"
-      - "traefik.http.routers.php-apache-secure.entrypoints=websecure"
-      - "traefik.http.routers.php-apache-secure.tls.certresolver=myresolver"
-      - "traefik.http.routers.php-apache-secure.middlewares=test-compress,test-errorpages,test-ratelimit"
+      - "traefik.http.routers.fablab-secure.rule=Host(`fablab-icam-toulouse.com`)"
+      - "traefik.http.routers.fablab-secure.entrypoints=websecure"
+      - "traefik.http.routers.fablab-secure.tls.certresolver=myresolver"
+      - "traefik.http.routers.fablab-secure.middlewares=test-compress,test-errorpages,test-ratelimit"
 
 
       # Error Pages Middleware
