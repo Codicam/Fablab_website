@@ -1,26 +1,13 @@
 /*Type de police*/
 /*///////////////////////////////////////////////////////////////////////*/
 
-.header1 {
-    background: url("http://codicam.com/Site_Fablab/images/imprimante3d.jpg") fixed no-repeat;
+
+.header2 {
+    background: url("http://codicam.com/Site_Fablab/images/elec.jpg") fixed no-repeat;
     background-size: cover;
     height: 50%;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
-#Description1:target{
-    display: flex;
-}
-
-#Description2:target{
-    display: flex;
-}
-
-#Description3:target{
-    display: flex;
-}
-
 /*//////////////////////////////////////////////////////////////////////*/
-
-

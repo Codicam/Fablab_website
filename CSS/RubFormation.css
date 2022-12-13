@@ -1,0 +1,182 @@
+* {
+    font-family: "Montserrat", "Calibri", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Type de police*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+.trait {
+    background: black;
+    border: 0.5px solid black;
+    width: 20%;
+    height: 0;
+    padding: 0;
+}
+
+body {
+    background: none;
+}
+
+.headcontent {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px 15px black;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+.hiddenscrollbar {
+    overflow: hidden;
+    height: 100%;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.frame_box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white, lightgray);
+}
+
+.FormationsDisp {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.Documentation{
+    width: 50%;
+    height: 100%;
+}
+
+.NometDate{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+
+
+.titre{
+    width: 100%;
+    height: 10%;
+}
+
+.titre2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.NomForm{
+    width: 33%;
+    height: 100%;
+}
+
+.TitreNomForm{
+    width: 33%;
+    height: 100%;
+}
+
+.DateForm{
+    width: 33%;
+    height: 100%;
+}
+.TitreDateForm{
+    width: 33%;
+    height: 100%;
+}
+
+.button_inscription {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-style: none;
+    border-bottom: 2px solid black;
+    background: none;
+}
+
+.button_inscription:hover {
+    transition: 200ms ease-out;
+    color: orange;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+.BtnInscription{
+    width: 33%;
+    height: 100%;
+}
+
+.LiensDoc {
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+
+.lien {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-style: none;
+    font-size: 16px;
+    background: none;
+}
+
+.lien:hover {
+    transition: 200ms ease-out;
+    color: orange;
+}
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    padding: 1.5em 2em;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: grey;
+    text-decoration: none;
+}
+.close:hover,
+.close:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 200ms ease-out;
+}

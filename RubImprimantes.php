@@ -9,9 +9,10 @@ require_once('init/path.php');
     <meta content="width=device-width, initial-scale=1">
     <title> Maîtriser les imprimantes </title>
     <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/RubImprimantes.css';?>"/>
+    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/RubFormation.css';?>"/>
     <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
-
 </head>
+
 <body>
 
 <header class="header1">
@@ -39,8 +40,8 @@ require_once('init/path.php');
             <div class="TitreDateForm">
                 <h4 style="position: relative; left: 15px;">Date</h4>
             </div>
-
         </div>
+
         <div class="NometDate" style="text-align: start">
             <div class="NomForm">
                 <a class="lien" href="#Description1" style="position: relative; left: 15px; text-transform: uppercase;"> Atelier Projets Personnels </a>
@@ -54,6 +55,8 @@ require_once('init/path.php');
                         <a href="#" class="close">&times;</a>
                     </div>
                 </div>
+                <br/>
+                <br/>
                 <a class="lien" href="#Description2" style="position: relative; left: 15px; text-transform: uppercase;"> Formation Théorique </a>
 
                 <div id="Description2" class="modal">
@@ -62,10 +65,12 @@ require_once('init/path.php');
                         <p style="text-align: justify"> Lors de cette formation, vous apprendrez les bases de l'utilisation des Imprimantes 3D du FabLab. Vous pourrez retrouver les toutes informations, dans la documentation disponibles en téléchargement sur notre site.
                         </p>
                         <a href="#" class="close">&times;</a>
+
                     </div>
                 </div>
                 <br/>
-                <a class="lien" href="#Description3" style="position: relative; left: 15px; text-transform: uppercase;">Formation Pratique </a>
+                <br/>
+                <a class="lien" href="#Description3" style="position: relative; left: 15px; text-transform: uppercase;"> Formation Pratique </a>
                 <div id="Description3" class="modal">
                     <div class="modal-content">
                         <h5>Description de la formation</h5> <br/>
@@ -74,6 +79,7 @@ require_once('init/path.php');
                         <a href="#" class="close">&times;</a>
                     </div>
                 </div>
+
             </div>
 
             <div class="DateForm" style="text-align: center;">
@@ -104,7 +110,6 @@ require_once('init/path.php');
             <p> <a class="lien" href="/Manuel_dutilisation_Zortrax_m200_plus_FR.pdf"> <img src="<?php echo $GLOBALS['url_root'].'/images/logo_telechargement.png';?>" alt="logo_telecharger" title="logo_telecharger"/>  Manuel d'Utilisation de l'Imprimante 3D M200 Plus </a>
             </p>
         </div>
-
     </div>
 
 </div>
