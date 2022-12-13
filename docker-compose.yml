@@ -7,26 +7,39 @@ services:
       context: .
     volumes:
       - .:/var/www/html/
+    #      - ./letsencrypt:/letsencrypt
+    #      - ./traefik.http.yml:/etc/traefik/traefik.yml
     ports:
       - "8006:80"
-#    labels:
-#      - "traefik.enable=true"
-#      - "traefik.http.routers.php-apache.rule=Host(`fablab-icam-toulouse.com`)"
-#      - "traefik.http.routers.php-apache.entrypoints=web"
-#    networks:
-#      - traefik-network
+    labels:
+      - "traefik.enable=true"
 
 
-#  mysql:
-#    image: mysql:5.7
-#    container_name: mysql
-#    env_file: ./env/mysql.env
-#
-#networks:
-#  traefik-network:
-#    external: true
+      - "traefik.http.routers.php-apache.rule=Host(`fablab-icam-toulouse.com`)"
+      - "traefik.http.routers.php-apache.entrypoints=web"
+      - "traefik.http.routers.php-apache.middlewares=test-redirectscheme"
 
-#  phpmyadmin:
-#    image: phpmyadmin:latest
-#    container_name: phpmyadmin
-#    env_file: ./env/pma.env
+
+
+      - "traefik.http.routers.php-apache-secure.rule=Host(`fablab-icam-toulouse.com`)"
+      - "traefik.http.routers.php-apache-secure.entrypoints=websecure"
+      - "traefik.http.routers.php-apache-secure.tls.certresolver=myresolver"
+      - "traefik.http.routers.php-apache-secure.middlewares=test-compress,test-errorpages,test-ratelimit"
+
+
+      # Error Pages Middleware
+      - "traefik.http.middlewares.test-errorpages.errors.status=400-599"
+      - "traefik.http.middlewares.test-errorpages.errors.service=error"
+      - "traefik.http.middlewares.test-errorpages.errors.query=/{status}.html"
+
+      # Rate Limit Middleware
+      - "traefik.http.middlewares.test-ratelimit.ratelimit.average=2"
+
+      # Compress Middleware
+      - "traefik.http.middlewares.test-compress.compress=true"
+
+      # Redirect Scheme HTTP -> HTTPS
+      - "traefik.http.middlewares.test-redirectscheme.redirectscheme.scheme=https"
+    #      - "traefik.http.middlewares.test-redirectscheme.redirectscheme.permanent=true"
+
+
