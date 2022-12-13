@@ -1,7 +1,7 @@
 <?php
 
-require('/home/codicam/www/Site_Fablab/init/path.php');
-require_once($GLOBALS['server_root'].'/Models/DatabaseModel.php');
+require('../init/path.php');
+require_once($GLOBALS['server_root'].'../Models/DatabaseModel.php');
 
 if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
 
@@ -16,5 +16,5 @@ if (isset ($_SESSION['loggeduser']) && ($_SESSION['loggeduser'] === true)) {
     require($GLOBALS['server_root'].'/RubImprimantes.php');
 }
 else {
-    require($GLOBALS['server_root'].'/init/Errorpage.php');
+    require($GLOBALS['server_root'].'../init/Errorpage.php');
 }

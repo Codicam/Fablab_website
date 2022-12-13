@@ -3,7 +3,7 @@
 
 
 .header2 {
-    background: url("http://codicam.com/Site_Fablab/images/elec.jpg") fixed no-repeat;
+    background: url('http://51.77.245.133:8006/images/elec.jpg') fixed no-repeat;
     background-size: cover;
     height: 50%;
     color: white;

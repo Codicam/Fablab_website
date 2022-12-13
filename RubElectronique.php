@@ -8,9 +8,9 @@ require_once('init/path.php');
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
     <title> Electronique </title>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/RubElectronique.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/RubFormation.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubElectronique.css';?>"/>
+    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubFormation.css';?>"/>
+    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/main.css';?>"/>
 </head>
 
 <body>
@@ -31,12 +31,12 @@ require_once('init/path.php');
 <div class="frame_box">
     <div class="FormationsDisp">
         <div class="titre">
-            <h3 style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-weight: bold; color: orange;">Formations disponibles</h3>
+            <h3 style="font-size: 24px; font-weight: bold; color: orange;">Formations disponibles</h3>
         </div>
     </div>
     <div class="Documentation">
         <div class="titre">
-            <h3 style="font-size: 24px; font-weight: bold;">Documentation</h3>
+            <h3 style="font-size: 24px; font-weight: bold; color: orange">Documentation</h3>
         </div>
     </div>
 
@@ -47,3 +47,4 @@ require_once('init/path.php');
 
 </body>
 
+</html>
