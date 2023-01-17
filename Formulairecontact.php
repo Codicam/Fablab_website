@@ -11,7 +11,7 @@ require_once('init/path.php');
     <link
     href="CSS/Formulaire.css"
     rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
 </head>
 
 <body>

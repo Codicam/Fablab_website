@@ -8,14 +8,14 @@ require_once('init/path.php');
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
     <title> Electronique </title>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubElectronique.css';?>"/>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubFormation.css';?>"/>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/RubElectronique.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/RubFormation.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
 </head>
 
 <body>
 
-<header class="header2" style="height: 50%">
+<header class="header2" style="height: 50%; background-image: url('https://fablab-icam-toulouse.com/images/elec.jpg')">
     <div class="wrapper">
         <div class="headcontent">
             <h1> Electronique </h1>

@@ -7,10 +7,10 @@ require_once('init/path.php');
 <head>
     <meta charset="UTF-8">
     <title>Footer</title>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/styleFooter.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/Formulaire.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/styleFooter.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/popup.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/Formulaire.css"/>
 </head>
 <body>
 
@@ -20,19 +20,19 @@ require_once('init/path.php');
             <h4>Retrouvez nous !</h4><br />
             <div class="btnfoot" >
                 <a href="https://www.instagram.com/fabricam.toulouse/?hl=fr" class="linkfoot" target="_blank">
-                    <img src="<?php echo $GLOBALS['url_root'].'/images/instagram.png';?>" alt="instagram" class="icone">
+                    <img src="https://fablab-icam-toulouse.com/images/instagram.png" alt="instagram" class="icone">
                     <p>Instagram</p>
                 </a>
             </div>
             <div class="btnfoot">
                 <a href="page2.php" class="linkfoot" target="_blank">
-                    <img src="<?php echo $GLOBALS['url_root'].'/images/facebook.png';?>" alt="facebook" class="icone">
+                    <img src="https://fablab-icam-toulouse.com/images/facebook.png" alt="facebook" class="icone">
                     <p>Facebook</p>
                 </a>
             </div>
             <div class="btnfoot">
                 <a href="Formulairecontact.php" class="linkfoot" target="_blank">
-                    <img src="<?php echo $GLOBALS['url_root'].'/images/Mail.png';?>" alt="Email" class="icone">
+                    <img src="https://fablab-icam-toulouse.com/images/Mail.png" alt="Email" class="icone">
                     <p>Mail</p>
                 </a>
             </div>
@@ -44,7 +44,7 @@ require_once('init/path.php');
             </p>
             <div id="map">
                 <a href="https://www.google.fr/maps/place/75+Av.+de+Grande+Bretagne,+31300+Toulouse/@43.5984635,1.4130863,17z/" target="_blank">
-                    <img src="<?php echo $GLOBALS['url_root'].'/images/icamcarte.png';?>" class="carte" alt="Adresse de l'icam" />
+                    <img src="https://fablab-icam-toulouse.com/images/icamcarte.png" class="carte" alt="Adresse de l'icam" />
                 </a>
             </div>
         </div>
@@ -57,13 +57,13 @@ require_once('init/path.php');
                 <a href="blocnote.txt" class="linkfoot">Icampourlesnuls</a>
             </div>
             <div style="margin: auto;">
-                <a class="button" data-modal="modalDisconnect" href="<?php echo $GLOBALS['url_root'].'/Controllers/logout.php';?>">
+                <a class="button" data-modal="modalDisconnect" href="https://fablab-icam-toulouse.com/Controllers/logout.php">
                     SE DECONNECTER
                 </a>
             </div>
         </div>
         <div id="logocodicam">
-            <img src="<?php echo $GLOBALS['url_root'].'/images/Logocodicam.png';?>" alt="Made by Cod'icam, Logo Cod'icam" width="100px">
+            <img src="https://fablab-icam-toulouse.com/images/Logocodicam.png" alt="Made by Cod'icam, Logo Cod'icam" width="100px">
         </div>
     </div>
 </footer>

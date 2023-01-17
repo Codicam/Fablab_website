@@ -2,7 +2,7 @@
 /*///////////////////////////////////////////////////////////////////////*/
 
 .header1 {
-    background: url("http://51.77.245.133:8006/images/imprimante3d.jpg") fixed no-repeat;
+    /*background: url('https://fablab-icam-toulouse.com/images/imprimante3d.jpg') fixed no-repeat;*/
     background-size: cover;
     height: 50%;
     color: white;

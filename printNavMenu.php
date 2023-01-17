@@ -8,32 +8,32 @@ require_once('init/path.php');
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
     <title>menu déroulant</title>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/styleNav.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/styleNav.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
 
 </head>
 <body>
 <nav>
     <ul>
         <li class="bouton">
-            <a href="<?php echo $GLOBALS['url_root'].'/Fablab.php'; ?>">Accueil</a>
+            <a href="<?php echo '/Fablab.php'; ?>">Accueil</a>
         </li>
         <li class="menu-deroulant">
-            <a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Formations</a>
+            <a href="<?php echo '/Formations.php'; ?>">Formations</a>
             <ul class="sous-menu">
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Electronique</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/formationController.php'; ?>">Maîtriser les imprimantes</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Usiner du bois</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Formations.php'; ?>">Usiner du métal</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Formations.php">Electronique</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Controllers/formationController.php">Maîtriser les imprimantes</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Formations.php">Usiner du bois</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Formations.php">Usiner du métal</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
-            <a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Outils</a>
+            <a href="https://fablab-icam-toulouse.com/Controllers/toolController.php">Outils</a>
             <ul class="sous-menu">
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Bois</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Electronique</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Métaux</a></li>
-                <li><a href="<?php echo $GLOBALS['url_root'].'/Controllers/toolController.php'; ?>">Plastique</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Controllers/toolController.php">Bois</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Controllers/toolController.php">Electronique</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Controllers/toolController.php">Métaux</a></li>
+                <li><a href="https://fablab-icam-toulouse.com/Controllers/toolController.php">Plastique</a></li>
             </ul>
         </li>
         <li class="menu-deroulant">
@@ -50,7 +50,7 @@ require_once('init/path.php');
         <div class="logbtns">
             <?php
             if (isset($_SESSION['loggeduser'])) {?>
-                <a class="button" href="<?php echo $GLOBALS['url_root'].'/Controllers/UserController.php'; ?>">Mon Compte</a>
+                <a class="button" href="https://fablab-icam-toulouse.com/Controllers/UserController.php">Mon Compte</a>
             <?php }
             else {
                 include('printpopup.php');

@@ -7,8 +7,8 @@ require_once('init/path.php');
 <head>
     <meta charset="UTF-8">
     <title>Formations</title>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/Formation.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/Formation.css"/>
 </head>
 <body>
 

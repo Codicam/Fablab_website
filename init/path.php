@@ -1,5 +1,5 @@
 <?php session_start();
 
-$GLOBALS['url_root'] = "fablab-icam-toulouse.com/";
+$GLOBALS['url_root'] = "";
 $GLOBALS['server_root'] = "";
 

@@ -95,6 +95,6 @@ require_once('init/path.php');
 </div>
 
 <?php require('Footer.php'); ?>
-<script src="<?php echo $GLOBALS['url_root'].'/JavaScript/floatable.js';?>"></script>
+<script src='https://fablab-icam-toulouse.com/JavaScript/floatable.js'></script>
 </body>
 </html>

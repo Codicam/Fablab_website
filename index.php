@@ -6,7 +6,7 @@ require_once('init/path.php');
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/styleHome.css"/>
+    <link rel="stylesheet" href="tthps://fablab-icam-toulouse.com/CSS/styleHome.css"/>
     <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
     <title>Bienvenue au Fablab !</title>
 

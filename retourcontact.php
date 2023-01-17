@@ -27,8 +27,8 @@ if (isset($_FILES['screenshot']) AND $_FILES['screenshot']['error'] == 0) {
 <head>
     <meta charset="UTF-8">
     <title>Formulaire de Contact</title>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/Formulaire.css';?>/>
-    <link rel="stylesheet" href=<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/Formulaire.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
 </head>
 <body>
 <div>

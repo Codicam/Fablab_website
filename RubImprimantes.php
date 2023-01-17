@@ -8,14 +8,14 @@ require_once('init/path.php');
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1">
     <title> Maîtriser les imprimantes </title>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubImprimantes.css';?>"/>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/RubFormation.css';?>"/>
-    <link rel="stylesheet" href="<?php echo 'http://51.77.245.133:8006/CSS/main.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/RubImprimantes.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/RubFormation.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
 </head>
 
 <body>
 
-<header class="header1">
+<header class="header1" style="background-image: url('https://fablab-icam-toulouse.com/images/imprimante3d.jpg')">
     <div class="wrapper">
         <div class="headcontent">
             <h1>Maîtriser les Imprimantes</h1>

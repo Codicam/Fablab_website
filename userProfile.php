@@ -6,9 +6,9 @@ require_once('init/path.php');
 <head>
     <meta charset="UTF-8">
     <title>Mon Compte</title>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/main.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/Formulaire.css';?>"/>
-    <link rel="stylesheet" href="<?php echo $GLOBALS['url_root'].'/CSS/popup.css';?>"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/main.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/Formulaire.css"/>
+    <link rel="stylesheet" href="https://fablab-icam-toulouse.com/CSS/popup.css"/>
 </head>
 <body>
 
